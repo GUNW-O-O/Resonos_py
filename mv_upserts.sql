@@ -808,3 +808,407 @@ ON DUPLICATE KEY UPDATE
 
 -- ===== 2025-06-30 수집 끝 =====
 
+-- ===== 2025-06-30 수집 시작 =====
+
+-- Post Malone (246dkjvS1zLTtiykXe5h60)
+
+-- 아티스트 대표곡: I Had Some Help (Feat. Morgan Wallen)
+INSERT INTO track (id, mv_url)
+VALUES ('5IZXB5IKAD2qlvTPJYDCFB', '4QIZE708gJ4')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Hollywood's Bleeding 대표곡: Circles
+INSERT INTO track (id, mv_url)
+VALUES ('21jGcNKet2qwijlDFuPiPb', 'wXhTHyIgQ_U')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: F-1 Trillion 대표곡: I Had Some Help (Feat. Morgan Wallen)
+INSERT INTO track (id, mv_url)
+VALUES ('5IZXB5IKAD2qlvTPJYDCFB', '4QIZE708gJ4')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: beerbongs & bentleys 대표곡: rockstar (feat. 21 Savage)
+INSERT INTO track (id, mv_url)
+VALUES ('0e7ipj03S05BNilyu5bRzt', 'UceaB4D0jpo')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Stoney (Deluxe) 대표곡: Congratulations
+INSERT INTO track (id, mv_url)
+VALUES ('3a1lNhkSLSkpJE4MSHpDu9', 'SC4xMk98Pdc')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Twelve Carat Toothache 대표곡: I Like You (A Happier Song) (with Doja Cat)
+INSERT INTO track (id, mv_url)
+VALUES ('0O6u0VJ46W86TxN9wgyqDj', '7aekxC_monc')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- Post Malone 끝
+
+
+-- LE SSERAFIM (4SpbR6yFEvexJuaBpgAU5p)
+
+-- 아티스트 대표곡: CRAZY
+INSERT INTO track (id, mv_url)
+VALUES ('4gxEY3Mh5FZZDAJAKPNrCS', 'n6B5gQXlB-0')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: CRAZY (Party Remixes 1) 대표곡: CRAZY
+INSERT INTO track (id, mv_url)
+VALUES ('4gxEY3Mh5FZZDAJAKPNrCS', 'n6B5gQXlB-0')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: UNFORGIVEN 대표곡: ANTIFRAGILE
+INSERT INTO track (id, mv_url)
+VALUES ('0bMoNdAnxNR0OuQbGDovrr', 'pyf8cbqyfPs')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- LE SSERAFIM 끝
+
+
+-- ===== 2025-06-30 수집 끝 =====
+
+
+-- ===== 2025-06-30 수집 시작 =====
+
+-- KISS OF LIFE (4TEK9tIkcoxib4GxT3O4ky)
+
+-- 아티스트 대표곡: Igloo
+INSERT INTO track (id, mv_url)
+VALUES ('2DbDefRFJ5YOfXCKOeCJJh', 'toF4ee3n-vo')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- KISS OF LIFE 끝
+
+
+-- CHANGMO (3hvinNZRzTLoREmqFiKr1b)
+
+-- 아티스트 대표곡: METEOR
+INSERT INTO track (id, mv_url)
+VALUES ('4g6XOg9rvB55GCTJcYchOG', 'lOrU0MH0bMk')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Boyhood 대표곡: METEOR
+INSERT INTO track (id, mv_url)
+VALUES ('4g6XOg9rvB55GCTJcYchOG', 'lOrU0MH0bMk')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: UNDERGROUND ROCKSTAR 대표곡: TAIJI
+INSERT INTO track (id, mv_url)
+VALUES ('4kTZPPL28sYltXKMJramko', '6WDfCK0cexE')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- CHANGMO 끝
+
+
+-- Younha (6GwM5CHqhWXzG3l5kzRSAS)
+
+-- 아티스트 대표곡: WINTER FLOWER(Feat.RM)
+INSERT INTO track (id, mv_url)
+VALUES ('4Eefey3uN90Abhbr47zKmC', 'OcCkAG_LO9Y')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: YOUNHA 6th Album Repackage 'END THEORY : Final Edition' 대표곡: Event Horizon
+INSERT INTO track (id, mv_url)
+VALUES ('6RBziRcDeiho3iTPdtEeg9', '73V3xrfiYMo')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: 고백하기 좋은 날 대표곡: 비밀번호 486
+INSERT INTO track (id, mv_url)
+VALUES ('3iMEXEV98rBI3CydmgGTIk', 'ksyxzlUYTbo')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: YOUNHA 6th Album 'END THEORY' 대표곡: Oort Cloud
+INSERT INTO track (id, mv_url)
+VALUES ('7tOsgOjrzBVQqyaMDBlZV8', 'TqFLIZG_aXA')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: 혜성 대표곡: 혜성
+INSERT INTO track (id, mv_url)
+VALUES ('1JrzvYMdLqHGBa6jmnBXia', 'LuqRkCDTMBY')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: YOUNHA 7th Album Repackage ‘GROWTH THEORY : Final Edition’ 대표곡: Point Nemo
+INSERT INTO track (id, mv_url)
+VALUES ('3cKR6eNYOujXr4tEc9xTHe', 'GCKSrC6XVOk')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- Younha 끝
+
+
+-- Daft Punk (4tZwfgrHOc3mvqYlEYSvVi)
+
+-- 아티스트 대표곡: Get Lucky (Radio Edit) [feat. Pharrell Williams and Nile Rodgers]
+INSERT INTO track (id, mv_url)
+VALUES ('2Foc5Q5nqNiosCNqttzHof', 'CCHdMIEGaaM')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Discovery 대표곡: One More Time
+INSERT INTO track (id, mv_url)
+VALUES ('0DiWol3AO6WpXZgp0goxAV', 'FGBhQbmPwH8')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Random Access Memories 대표곡: Instant Crush (feat. Julian Casablancas)
+INSERT INTO track (id, mv_url)
+VALUES ('2cGxRwrMyEAp8dEbuZaVv6', 'a5uQMwRMHcs')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Homework 대표곡: Around the World
+INSERT INTO track (id, mv_url)
+VALUES ('1pKYYY0dkg23sQQXi0Q5zN', 'K0HSD_i2DvA')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: TRON: Legacy - The Complete Edition (Original Motion Picture Soundtrack) 대표곡: End of Line
+INSERT INTO track (id, mv_url)
+VALUES ('09TlxralXOGX35LUutvw7I', 'AHGvaQMClEo')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Random Access Memories (10th Anniversary Edition) 대표곡: Infinity Repeating (2013 Demo) [feat. Julian Casablancas+The Voidz]
+INSERT INTO track (id, mv_url)
+VALUES ('4r4fX4NZIqVIhGyDvERp0l', 'imBlPXbAv6E')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- Daft Punk 끝
+
+
+-- Queen (1dfeR4HaWDbWqFHLkxsg1d)
+
+-- 아티스트 대표곡: Bohemian Rhapsody - Remastered 2011
+INSERT INTO track (id, mv_url)
+VALUES ('4u7EnebtmKWzUH433cf5Qv', 'fJ9rUzIMcZQ')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Jazz (2011 Remaster) 대표곡: Don't Stop Me Now - Remastered 2011
+INSERT INTO track (id, mv_url)
+VALUES ('5T8EDUDqKcs6OSOwEsfqG7', 'HgzGwKwLmgM')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Hot Space (2011 Remaster) 대표곡: Under Pressure - Remastered 2011
+INSERT INTO track (id, mv_url)
+VALUES ('2fuCquhmrzHpu5xcA1ci9x', 'a01QQZyl-_I')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: The Game (2011 Remaster) 대표곡: Another One Bites The Dust - Remastered 2011
+INSERT INTO track (id, mv_url)
+VALUES ('5vdp5UmvTsnMEMESIF2Ym7', 'rY0WxgSXdEE')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: A Night At The Opera (2011 Remaster) 대표곡: Bohemian Rhapsody - Remastered 2011
+INSERT INTO track (id, mv_url)
+VALUES ('4u7EnebtmKWzUH433cf5Qv', 'fJ9rUzIMcZQ')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: News Of The World (2011 Remaster) 대표곡: We Will Rock You - Remastered 2011
+INSERT INTO track (id, mv_url)
+VALUES ('4pbJqGIASGPr0ZpGpnWkDn', '-tJYN-eG1zk')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- Queen 끝
+
+
+-- AKMU (6OwKE9Ez6ALxpTaKcT5ayv)
+
+-- 아티스트 대표곡: Love Lee
+INSERT INTO track (id, mv_url)
+VALUES ('1qosh64U6CR5ki1g1Rf2dZ', 'EIz09kLzN9k')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: SAILING 대표곡: How can I love the heartbreak, you're the one I love
+INSERT INTO track (id, mv_url)
+VALUES ('0hqj5JBnFt1BHEz2UCFwrl', 'm3DZsBw5bnE')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: PLAY 대표곡: Give Love
+INSERT INTO track (id, mv_url)
+VALUES ('2A3ShNautqXezP1lFDePwa', 'x2XX3cNW4K0')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: WINTER 대표곡: Last Goodbye
+INSERT INTO track (id, mv_url)
+VALUES ('0x50cQ1pZeV4xl737GhKBk', 'wEQpfil0IYA')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: AKMU 'SAILING' TOUR LIVE 대표곡: Reality & Crescendo
+INSERT INTO track (id, mv_url)
+VALUES ('4eFIIZQwWO0gtuDRykQKRh', 'nGJt-r9qpbA')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- AKMU 끝
+
+
+-- Beenzino (7IrDIIq3j04exsiF3Z7CPg)
+
+-- 아티스트 대표곡: Aqua Man
+INSERT INTO track (id, mv_url)
+VALUES ('5tEouf2s1SPwAIkOHnvWtQ', '8nq32TQBwXI')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: NOWITZKI 대표곡: Travel Again (Feat. Cautious Clay)
+INSERT INTO track (id, mv_url)
+VALUES ('1bPMPSOQPIinoU6ZBDWtgb', 'IS0jGZh600E')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: 12 대표곡: Dali, Van, Picasso
+INSERT INTO track (id, mv_url)
+VALUES ('1qF1S4e4WBw6nG1mglWfEH', 'c2NSZInZ3XQ')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- Beenzino 끝
+
+
+-- Zion.T (5HenzRvMtSrgtvU16XAoby)
+
+-- 아티스트 대표곡: No Make Up
+INSERT INTO track (id, mv_url)
+VALUES ('4ppKRxity3jJd2hGoVyD4u', 'eqcte1r3aiQ')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: OO 대표곡: Complex (Feat. G-DRAGON)
+INSERT INTO track (id, mv_url)
+VALUES ('3v7M2SwKHQZ8domnAQV2DJ', 'Qh98OxcCg38')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Zip 대표곡: UNLOVE (prod. HONNE)
+INSERT INTO track (id, mv_url)
+VALUES ('0ATIeBo4fQnecpNzm3CUFm', 'Sp7XWe421yY')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Red Light 대표곡: Two melodies
+INSERT INTO track (id, mv_url)
+VALUES ('1oTdXaj3rG7ZM4gbdvjqb3', 'Jkozsve2oKU')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- Zion.T 끝
+
+
+-- ILLIT (36cgvBn0aadzOijnjjwqMN)
+
+-- 아티스트 대표곡: Magnetic
+INSERT INTO track (id, mv_url)
+VALUES ('1aKvZDoLGkNMxoRYgkckZG', 'Vk5-c_v4gMU')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- ILLIT 끝
+
+
+-- STAYC (01XYiBYaoMJcNhPokrg0l0)
+
+-- 아티스트 대표곡: BEBE - Japanese ver.
+INSERT INTO track (id, mv_url)
+VALUES ('3gpncpAgIWAd8ytN8qJ1QY', 'h0fYolrvLMA')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Metamorphic 대표곡: Cheeky Icy Thang
+INSERT INTO track (id, mv_url)
+VALUES ('3BhyxulZ13uWZS6LqiYiCj', 's-UXxaQdUew')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- STAYC 끝
+
+
+-- The Quiett (2qI1pO64eYqGUiv1XTw4cy)
+
+-- 아티스트 대표곡: 119 REMIX
+INSERT INTO track (id, mv_url)
+VALUES ('74iLM3khzrxThTy39JDQMC', 'gxvpq3-D1HI')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: glow forever 대표곡: namchin
+INSERT INTO track (id, mv_url)
+VALUES ('2CrkQ1GeZJWbdPqK6wUIRz', 'yCGOzwQUAqw')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Millionaire Poetry 대표곡: Prime Time
+INSERT INTO track (id, mv_url)
+VALUES ('6RFzA8mLXRgrMnpMUOvKiy', 'Uccsyq-ERMs')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Luxury Flow 대표곡: UGRS (Feat. Paul Blanco, CHANGMO)
+INSERT INTO track (id, mv_url)
+VALUES ('5GzMUEamWs47HNPivuXk5W', '697RniVBI-Y')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: 1 Life 2 Live 대표곡: Bentley
+INSERT INTO track (id, mv_url)
+VALUES ('2LLLwm6I3SMEBbs32llNlM', 'zYMAUpr4WE4')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: The Real Me 대표곡: 진흙 속에서 피는 꽃 Flower from the Mud (feat. Kebee & MC Meta)
+INSERT INTO track (id, mv_url)
+VALUES ('3HQKOvG5jI7lLseS6ZT3ph', 'Gf-P9UvVWqw')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- The Quiett 끝
+
+
+-- NewJeans (6HvZYsbFfjnjFrWF950C9d)
+
+-- 아티스트 대표곡: New Jeans
+INSERT INTO track (id, mv_url)
+VALUES ('6rdkCkjk6D12xRpdMXy0I2', 'kcelgrGY1h8')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: NJWMX 대표곡: Attention (250 Remix)
+INSERT INTO track (id, mv_url)
+VALUES ('2nW48vXnZZ5EYka46v7GOk', 'gIwcxYidIA8')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- NewJeans 끝
+
+
+-- ===== 2025-06-30 수집 끝 =====
+
+
