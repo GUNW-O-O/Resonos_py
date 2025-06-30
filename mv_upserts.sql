@@ -399,203 +399,411 @@ ON DUPLICATE KEY UPDATE
 
 -- ===== 2025-06-30 수집 시작 =====
 
--- Eminem (7dGJo4pcD2V6oG8kP0tJRR)
+-- ===== 2025-06-30 수집 끝 =====
 
--- 아티스트 대표곡: Without Me
+
+-- ===== 2025-06-30 수집 시작 =====
+
+-- Girls' Generation (0Sadg1vgvaPqGTOjxu0N6c)
+
+-- 아티스트 대표곡: Gee
 INSERT INTO track (id, mv_url)
-VALUES ('7lQ8MOhq6IN2w8EYcFNSUk', 'YVkUvmDQ3HY')
+VALUES ('0t7kjpVLgOYITrSfFCoBEA', 'U7mPqycQ0tQ')
 ON DUPLICATE KEY UPDATE
     mv_url = VALUES(mv_url);
 
--- 앨범: The Eminem Show 대표곡: Without Me
+-- 앨범: Girls' Generation 대표곡: Into the New World
 INSERT INTO track (id, mv_url)
-VALUES ('7lQ8MOhq6IN2w8EYcFNSUk', 'YVkUvmDQ3HY')
+VALUES ('1RTW9UthqmZwr8Od6CH4i8', '0k2Zzkw_-0I')
 ON DUPLICATE KEY UPDATE
     mv_url = VALUES(mv_url);
 
--- 앨범: Recovery 대표곡: Love The Way You Lie
+-- 앨범: Lion Heart - The 5th Album 대표곡: Lion Heart
 INSERT INTO track (id, mv_url)
-VALUES ('15JINEqzVMv3SvJTAXAKED', 'uelHwf8o7_U')
+VALUES ('405SQUJdQut02dxtuQ0CZ3', 'nVCubhQ454c')
 ON DUPLICATE KEY UPDATE
     mv_url = VALUES(mv_url);
 
--- 앨범: Encore (Deluxe Version) 대표곡: Mockingbird
+-- 앨범: FOREVER 1 - The 7th Album 대표곡: FOREVER 1
 INSERT INTO track (id, mv_url)
-VALUES ('561jH07mF1jHuk7KlaeF0s', 'S9bCLPwzSC0')
+VALUES ('1oen3GpTcA486fTHaT7neg', 'Qpf26PtBXgo')
 ON DUPLICATE KEY UPDATE
     mv_url = VALUES(mv_url);
 
--- 앨범: Music To Be Murdered By 대표곡: Godzilla (feat. Juice WRLD)
+-- 앨범: Holiday Night - The 6th Album 대표곡: Holiday
 INSERT INTO track (id, mv_url)
-VALUES ('7FIWs0pqAYbP91WWM0vlTQ', 'r_0JjYUe5jo')
+VALUES ('1Bjy9ZtwMle3uhVgoBgiGN', 'YwN-CN9EjTg')
 ON DUPLICATE KEY UPDATE
     mv_url = VALUES(mv_url);
 
--- 앨범: The Death of Slim Shady (Coup De Grâce) 대표곡: Houdini
+-- Girls' Generation 끝
+
+
+-- ===== 2025-06-30 수집 끝 =====
+
+
+-- ===== 2025-06-30 수집 시작 =====
+
+-- BLACKPINK (41MozSoPIsD1dJM0CLPjZF)
+
+-- 아티스트 대표곡: Pink Venom
 INSERT INTO track (id, mv_url)
-VALUES ('1CDQzbCz4KSQxHe7LMEgRM', '22tVWwmTie8')
+VALUES ('5P3o95Jf0YBQRQ4j2XPpfC', 'gQlMMD8auMs')
 ON DUPLICATE KEY UPDATE
     mv_url = VALUES(mv_url);
 
--- Eminem 끝
-
-
--- Drake (3TVXtAsR1Inumwj472S9r4)
-
--- 아티스트 대표곡: NOKIA
+-- 앨범: BORN PINK 대표곡: Shut Down
 INSERT INTO track (id, mv_url)
-VALUES ('2u9S9JJ6hTZS3Vf22HOZKg', '8ekJMC8OtGU')
+VALUES ('6tCd8bPvYnceDG7W9M1RMk', 'POe9SOEKotk')
 ON DUPLICATE KEY UPDATE
     mv_url = VALUES(mv_url);
 
--- 앨범: $ome $exy $ongs 4 U 대표곡: NOKIA
+-- 앨범: THE ALBUM 대표곡: How You Like That
 INSERT INTO track (id, mv_url)
-VALUES ('2u9S9JJ6hTZS3Vf22HOZKg', '8ekJMC8OtGU')
+VALUES ('6bvZRLLkBKkmgpBJTTj3QK', 'ioNng23DkIM')
 ON DUPLICATE KEY UPDATE
     mv_url = VALUES(mv_url);
 
--- 앨범: Views 대표곡: One Dance
+-- 앨범: BLACKPINK 2021 'THE SHOW' LIVE 대표곡: SOLO
 INSERT INTO track (id, mv_url)
-VALUES ('1zi7xx7UVEFkmKfv06H8x0', 'qL7zrWcv6XY')
+VALUES ('7yAy2gL2rtatS56jzkakhr', 'b73BI9eUkjM')
 ON DUPLICATE KEY UPDATE
     mv_url = VALUES(mv_url);
 
--- 앨범: More Life 대표곡: Passionfruit
+-- 앨범: 'BLACKPINK 2018 TOUR 'IN YOUR AREA' SEOUL - Live 대표곡: DDU-DU DDU-DU (Live)
 INSERT INTO track (id, mv_url)
-VALUES ('5mCPDVBb16L4XQwDdbRUpz', 'OVNZ5-e0HeQ')
+VALUES ('4k2iYdpCZYH3eQX2bVKOku', 'IHNzOHi8sJs')
 ON DUPLICATE KEY UPDATE
     mv_url = VALUES(mv_url);
 
--- 앨범: Scorpion 대표곡: God's Plan
+-- 앨범: BLACKPINK 2019-2020 WORLD TOUR IN YOUR AREA -TOKYO DOME- (Live) 대표곡: DDU-DU DDU-DU - JP Ver./ BLACKPINK 2019-2020 WORLD TOUR IN YOUR AREA -TOKYO DOME-
 INSERT INTO track (id, mv_url)
-VALUES ('6DCZcSspjsKoFjzjrWoCdn', 'xpVfcZ0ZcFM')
+VALUES ('7fqjqOu4HKTN2yP6aV8lpQ', 'EaWyG6vt7do')
 ON DUPLICATE KEY UPDATE
     mv_url = VALUES(mv_url);
 
--- 앨범: Take Care (Deluxe) 대표곡: Headlines
+-- BLACKPINK 끝
+
+
+-- SEVENTEEN (7nqOGRxlXj7N2JYbgNEjYH)
+
+-- 아티스트 대표곡: THUNDER
 INSERT INTO track (id, mv_url)
-VALUES ('6LxSe8YmdPxy095Ux6znaQ', 'cimoNqiulUE')
+VALUES ('0qkYuCno3SoU8vxkCdx0iJ', 'pS57UX6s-xw')
 ON DUPLICATE KEY UPDATE
     mv_url = VALUES(mv_url);
 
--- Drake 끝
-
-
--- Justin Bieber (1uNFoZAHBGtllmzznpCI3s)
-
--- 아티스트 대표곡: Beauty And A Beat
+-- 앨범: SEVENTEEN 5th Album 'HAPPY BURSTDAY' 대표곡: THUNDER
 INSERT INTO track (id, mv_url)
-VALUES ('6QFCMUUq1T2Vf5sFUXcuQ7', 'Ys7-6_t7OEQ')
+VALUES ('0qkYuCno3SoU8vxkCdx0iJ', 'pS57UX6s-xw')
 ON DUPLICATE KEY UPDATE
     mv_url = VALUES(mv_url);
 
--- 앨범: Purpose (Deluxe) 대표곡: Sorry
+-- 앨범: SEVENTEEN 4th Album 'Face the Sun' 대표곡: HOT
 INSERT INTO track (id, mv_url)
-VALUES ('09CtPGIpYB4BrO8qb1RGsF', 'fRh_vgS2dFE')
+VALUES ('6I2tqFhk8tq69iursYxuxd', 'gRnuFC4Ualw')
 ON DUPLICATE KEY UPDATE
     mv_url = VALUES(mv_url);
 
--- 앨범: Journals 대표곡: Confident
+-- 앨범: SEVENTEEN 9th Mini Album 'Attacca' 대표곡: Rock with you
 INSERT INTO track (id, mv_url)
-VALUES ('3JsydWaf2Ev4ehaLUjj3SY', '47YClVMlthI')
+VALUES ('6LnEoRQKMcaFTR5UvaKuBy', 'WpuatuzSDK4')
 ON DUPLICATE KEY UPDATE
     mv_url = VALUES(mv_url);
 
--- 앨범: My World 2.0 대표곡: Baby
+-- 앨범: SEVENTEEN BEST ALBUM '17 IS RIGHT HERE' 대표곡: MAESTRO
 INSERT INTO track (id, mv_url)
-VALUES ('6epn3r7S14KUqlReYr77hA', 'kffacxfA7G4')
+VALUES ('2UE9XGbAzicJIyo4bB6sqM', 'ThI0pBAbFnk')
 ON DUPLICATE KEY UPDATE
     mv_url = VALUES(mv_url);
 
--- 앨범: Justice 대표곡: Ghost
+-- 앨범: Love&Letter repackage album 대표곡: VERY NICE
 INSERT INTO track (id, mv_url)
-VALUES ('6I3mqTwhRpn34SLVafSH7G', 'Fp8msa5uYsc')
+VALUES ('1Rrj7KyS2R6SP9CQMDJW1w', 'J-wFp43XOrA')
 ON DUPLICATE KEY UPDATE
     mv_url = VALUES(mv_url);
 
--- 앨범: Believe 대표곡: Beauty And A Beat
+-- SEVENTEEN 끝
+
+
+-- BIGBANG (4Kxlr1PRlDKEB0ekOCyHgX)
+
+-- 아티스트 대표곡: BANG BANG BANG
 INSERT INTO track (id, mv_url)
-VALUES ('6QFCMUUq1T2Vf5sFUXcuQ7', 'Ys7-6_t7OEQ')
+VALUES ('3dI59jLoFMjMAyUAyRZnkE', '2ips2mM7Zqw')
 ON DUPLICATE KEY UPDATE
     mv_url = VALUES(mv_url);
 
--- Justin Bieber 끝
-
-
--- Bruno Mars (0du5cEVh5yTK9QJze8zA0C)
-
--- 아티스트 대표곡: Die With A Smile
+-- 앨범: MADE 대표곡: BANG BANG BANG
 INSERT INTO track (id, mv_url)
-VALUES ('7so0lgd0zP2Sbgs2d7a1SZ', 'kPa7bsKwL-c')
+VALUES ('3dI59jLoFMjMAyUAyRZnkE', '2ips2mM7Zqw')
 ON DUPLICATE KEY UPDATE
     mv_url = VALUES(mv_url);
 
--- 앨범: Unorthodox Jukebox 대표곡: Locked out of Heaven
+-- 앨범: Remember 대표곡: Sunset Glow
 INSERT INTO track (id, mv_url)
-VALUES ('3w3y8KPTfNeOKPiqUTakBh', 'e-fA-gBCkj0')
+VALUES ('3qHBjPdFZeS0tfXywAxOKq', 'mI3iW8k7OaI')
 ON DUPLICATE KEY UPDATE
     mv_url = VALUES(mv_url);
 
--- 앨범: 24K Magic 대표곡: That's What I Like
+-- 앨범: BIGBANG Vol.1 대표곡: La La La
 INSERT INTO track (id, mv_url)
-VALUES ('0KKkJNfGyhkQ5aFogxQAPU', 'PMivT7MJ41M')
+VALUES ('62laTbC1RWyE3IhsNEbvE9', 'rc-cHSzK5-U')
 ON DUPLICATE KEY UPDATE
     mv_url = VALUES(mv_url);
 
--- 앨범: Doo-Wops & Hooligans 대표곡: Just the Way You Are
+-- 앨범: BIGBANG JAPAN DOME TOUR 2017 -LAST DANCE- : THE FINAL 대표곡: Untitled, 2014 - BIGBANG JAPAN DOME TOUR 2017 -LAST DANCE- : THE FINAL
 INSERT INTO track (id, mv_url)
-VALUES ('47Slg6LuqLaX0VodpSCvPt', 'LjhCEhWiKXk')
+VALUES ('2C0LOJPcnVcSKCX3N0DqEn', 'IDNh6VKFPNk')
 ON DUPLICATE KEY UPDATE
     mv_url = VALUES(mv_url);
 
--- 앨범: An Evening With Silk Sonic 대표곡: Leave The Door Open
+-- 앨범: BIGBANG10 THE CONCERT 0.TO.10 FINAL IN SEOUL 대표곡: DOOM DADA - Live
 INSERT INTO track (id, mv_url)
-VALUES ('4pryE6cN2gFL1FVF5fYINl', 'adLGHcj_fmA')
+VALUES ('10CDw5PAK3WmqkNQYJ1kuN', 'ZW4Hy9B-E4M')
 ON DUPLICATE KEY UPDATE
     mv_url = VALUES(mv_url);
 
--- Bruno Mars 끝
+-- BIGBANG 끝
 
 
--- Rihanna (5pKCCKE2ajJHZ9KAiaK11H)
+-- IVE (6RHTUrRF63xao58xh9FXYJ)
 
--- 아티스트 대표곡: We Found Love
+-- 아티스트 대표곡: ATTITUDE
 INSERT INTO track (id, mv_url)
-VALUES ('6qn9YLKt13AGvpq9jfO8py', 'tg00YEETFzg')
+VALUES ('6VBiGpCFThcOFlldRiCPr9', '38xYeot-ciM')
 ON DUPLICATE KEY UPDATE
     mv_url = VALUES(mv_url);
 
--- 앨범: Loud (Japan Version) 대표곡: Only Girl (In The World)
+-- 앨범: I've IVE 대표곡: I AM
 INSERT INTO track (id, mv_url)
-VALUES ('2ENexcMEMsYk0rVJigVD3i', 'pa14VNsdSYM')
+VALUES ('7KavHYqoVFNB3IUXfs5gvP', '6ZUIwj3FgUY')
 ON DUPLICATE KEY UPDATE
     mv_url = VALUES(mv_url);
 
--- 앨범: ANTI (Deluxe) 대표곡: Love On The Brain
+-- IVE 끝
+
+
+-- aespa (6YVMFz59CuY7ngCxTxjpxE)
+
+-- 아티스트 대표곡: Whiplash
 INSERT INTO track (id, mv_url)
-VALUES ('5oO3drDxtziYU2H1X23ZIp', 'e6FFsY-9MZo')
+VALUES ('6uPnrBgweGOcwjFL4ItAvV', 'jWQx2f-CErU')
 ON DUPLICATE KEY UPDATE
     mv_url = VALUES(mv_url);
 
--- 앨범: Talk That Talk 대표곡: We Found Love
+-- 앨범: Drama - The 4th Mini Album 대표곡: Drama
 INSERT INTO track (id, mv_url)
-VALUES ('0U10zFw4GlBacOy9VDGfGL', 'tg00YEETFzg')
+VALUES ('5XWlyfo0kZ8LF7VSyfS4Ew', 'D8VEhcPeSlc')
 ON DUPLICATE KEY UPDATE
     mv_url = VALUES(mv_url);
 
--- 앨범: Unapologetic (Deluxe) 대표곡: Loveeeeeee Song
+-- 앨범: Armageddon - The 1st Album 대표곡: Armageddon
 INSERT INTO track (id, mv_url)
-VALUES ('5Mk1tgVrSuoWWwPVFNS0jB', 'dUfok6_9kZQ')
+VALUES ('5eWcGfUCrVFMoYskyfkEPE', 'nFYwcndNuOY')
 ON DUPLICATE KEY UPDATE
     mv_url = VALUES(mv_url);
 
--- 앨범: Loud 대표곡: Only Girl (In The World)
+-- 앨범: Girls - The 2nd Mini Album 대표곡: Black Mamba
 INSERT INTO track (id, mv_url)
-VALUES ('0AH6WMe3OlAlUb5miXt2FQ', 'pa14VNsdSYM')
+VALUES ('7v1X2PGU3uZXu7tzFTTsSh', 'ZeerrnuLi5E')
 ON DUPLICATE KEY UPDATE
     mv_url = VALUES(mv_url);
 
--- Rihanna 끝
+-- aespa 끝
+
+
+-- PSY (2dd5mrQZvg6SmahdgVKDzh)
+
+-- 아티스트 대표곡: Gangnam Style (강남스타일)
+INSERT INTO track (id, mv_url)
+VALUES ('5c58c6sKc2JK3o75ZBSeL1', '9bZkp7q19f0')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: PSY 9th 대표곡: That That (prod.&feat. SUGA of BTS)
+INSERT INTO track (id, mv_url)
+VALUES ('7GNRUsU3M4XNDDB9xle5Dz', '8dJyRm2jJ-U')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: PSY 7TH ALBUM 대표곡: DADDY
+INSERT INTO track (id, mv_url)
+VALUES ('1eMVXXpNPEUdFRy5ZH7FpM', 'FrG4TEcSuRg')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: PSY 8th 4X2=8 대표곡: I LUV IT
+INSERT INTO track (id, mv_url)
+VALUES ('0sEWGO1ajAmgln6B4lkuKb', 'Xvjnoagk6GU')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Psyfive 대표곡: It's Art
+INSERT INTO track (id, mv_url)
+VALUES ('2aSRUHDFrf6202bDqLQIcd', '1cKc1rkZwf8')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Psy 3 대표곡: 챔피언
+INSERT INTO track (id, mv_url)
+VALUES ('6h0DkyZqIuWFFdWRo7n8l2', '5vVzNrjrx9Q')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- PSY 끝
+
+
+-- TWICE (7n2Ycct7Beij7Dj7meI4X0)
+
+-- 아티스트 대표곡: TAKEDOWN (JEONGYEON, JIHYO, CHAEYOUNG)
+INSERT INTO track (id, mv_url)
+VALUES ('1rKQjUhF9zFJmuUotr3VkV', 'vf1kWWqJKus')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: STRATEGY 대표곡: Strategy (feat. Megan Thee Stallion)
+INSERT INTO track (id, mv_url)
+VALUES ('5111HV1Fb6hfeHH0b7VYMm', 'Sz_wWzgh-vQ')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Merry & Happy (Repackage) 대표곡: Heart Shaker
+INSERT INTO track (id, mv_url)
+VALUES ('3QG2RzpI7DLcwFB8OCG9tA', 'rRzxEiBLQCA')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: twicetagram 대표곡: LIKEY
+INSERT INTO track (id, mv_url)
+VALUES ('5UwxdcV6s0iE9v5f99tDMg', 'V2hlQkVJZhE')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Formula of Love: O+T=<3 대표곡: The Feels
+INSERT INTO track (id, mv_url)
+VALUES ('73Jmci4Dvc6zhgQZEe3Lnj', 'f5_wn8mexmM')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: DIVE 대표곡: DIVE
+INSERT INTO track (id, mv_url)
+VALUES ('58sk9upd9NpOrlCRvVRkQc', 'QGCkDOkpWf8')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- TWICE 끝
+
+
+-- i-dle (2AfmfGFbe0A0WsTYm0SDTx)
+
+-- 아티스트 대표곡: Good Thing
+INSERT INTO track (id, mv_url)
+VALUES ('7smHxl3Ga5qJ4LL5pjZPZZ', 'hAONx6nuEgI')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: 2 대표곡: Fate
+INSERT INTO track (id, mv_url)
+VALUES ('5kt0nWRnFWEeBUyLWSYnkd', 'ATK7gAaZTOM')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: I NEVER DIE 대표곡: TOMBOY
+INSERT INTO track (id, mv_url)
+VALUES ('6WYsZJDfUOftGVji74yYSU', 'Jh4QFaPmdss')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: We are i-dle 대표곡: LATATA (i-dle ver.)
+INSERT INTO track (id, mv_url)
+VALUES ('37gqq4C6VZk4xFB1LBE4fP', 'p4RIhcY7V3c')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- i-dle 끝
+
+
+-- Red Velvet (1z4g3DjTBBZKhvAroFlhOM)
+
+-- 아티스트 대표곡: Psycho
+INSERT INTO track (id, mv_url)
+VALUES ('3CYH422oy1cZNoo0GTG1TK', 'uR8Mrt1IpXg')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: ‘The ReVe Festival’ Finale 대표곡: Psycho
+INSERT INTO track (id, mv_url)
+VALUES ('3CYH422oy1cZNoo0GTG1TK', 'uR8Mrt1IpXg')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: The Perfect Red Velvet - The 2nd Album Repackage 대표곡: Bad Boy
+INSERT INTO track (id, mv_url)
+VALUES ('5GKwq4sO5ZHKuWaDmdwMQc', 'J_CFBjAyPWE')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Russian Roulette - The 3rd Mini Album 대표곡: 러시안 룰렛 Russian Roulette
+INSERT INTO track (id, mv_url)
+VALUES ('5HiSc2ZCGn8L3cH3qSwzBT', 'QslJYDX3o8s')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Perfect Velvet - The 2nd Album 대표곡: Peek-A-Boo
+INSERT INTO track (id, mv_url)
+VALUES ('42tFTth2jcF7iSo0RBjfJF', '6uJf2IT2Zh8')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: The Red - The 1st Album 대표곡: Day 1
+INSERT INTO track (id, mv_url)
+VALUES ('74muMkVdMYoR65lhmdzy13', '1uasFLFB4UI')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- Red Velvet 끝
+
+
+-- Car, the garden (7c1HgFDe8ogy5NOZ1ANCJQ)
+
+-- 아티스트 대표곡: Closely Far Away
+INSERT INTO track (id, mv_url)
+VALUES ('7wLJ4xzxNss5abZ1kXs242', 'SB2lvmWKE7A')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: APARTMENT 대표곡: Home Sweet Home
+INSERT INTO track (id, mv_url)
+VALUES ('5Xf2cIARIa9gwWf6m4DvME', 'l_HwXxoEYx8')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: C 대표곡: Dreamed a dream
+INSERT INTO track (id, mv_url)
+VALUES ('0tumsfaXAjtZKqF5Vi2QFH', '8W_nrbswn4k')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Harmony 대표곡: Tomorrow
+INSERT INTO track (id, mv_url)
+VALUES ('3Za3hxz2Hw4M9f0sFc1FuY', 'IxaTjGPP2aM')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Photographer 대표곡: Bushwick (feat. OHHYUK)
+INSERT INTO track (id, mv_url)
+VALUES ('3Z3IYCMAm9awxnwpVu2anc', 'w5zQqDNRJcQ')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Jackasoul 대표곡: Holiday (feat. Beenzino)
+INSERT INTO track (id, mv_url)
+VALUES ('0INZNfpzq2XFmYmKKQ4If8', 'PsiB0V5sNlM')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- Car, the garden 끝
 
 
 -- ===== 2025-06-30 수집 끝 =====
