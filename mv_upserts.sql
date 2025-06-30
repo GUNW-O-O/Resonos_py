@@ -1442,3 +1442,289 @@ ON DUPLICATE KEY UPDATE
 
 
 -- ===== 2025-06-30 수집 끝 =====
+
+-- ===== 2025-06-30 수집 시작 =====
+
+-- Adele (4dpARuHxo51G3z768sgnrY)
+
+-- 아티스트 대표곡: Set Fire to the Rain
+INSERT INTO track (id, mv_url)
+VALUES ('3di5hcvxxciiqwMH1jarhY', '1twUUM0KxDg')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: 30 대표곡: Easy On Me
+INSERT INTO track (id, mv_url)
+VALUES ('46IZ0fSY2mpAiktS3KOqds', 'U3ASj1L6_sY')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: 21 대표곡: Set Fire to the Rain
+INSERT INTO track (id, mv_url)
+VALUES ('3di5hcvxxciiqwMH1jarhY', '1twUUM0KxDg')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: 25 대표곡: Love In The Dark
+INSERT INTO track (id, mv_url)
+VALUES ('0DuWDLjriRPjDRoPgaCslY', '-hzFTJDJGkQ')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: 19 대표곡: Hometown Glory
+INSERT INTO track (id, mv_url)
+VALUES ('3cCPT7eJhpYXXlH2pbWhfP', 'BW9Fzwuf43c')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- Adele 끝
+
+
+-- Coldplay (4gzpq5DPGxSnKTe4SA8HAU)
+
+-- 아티스트 대표곡: Yellow
+INSERT INTO track (id, mv_url)
+VALUES ('3AJwUDP919kvQ9QcozQPxg', 'yKNxeF4KMsY')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Parachutes 대표곡: Yellow
+INSERT INTO track (id, mv_url)
+VALUES ('3AJwUDP919kvQ9QcozQPxg', 'yKNxeF4KMsY')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: A Rush of Blood to the Head 대표곡: The Scientist
+INSERT INTO track (id, mv_url)
+VALUES ('75JFxkI2RXiU7L9VXzMkle', 'RB-RcX5DS5A')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Ghost Stories 대표곡: A Sky Full of Stars
+INSERT INTO track (id, mv_url)
+VALUES ('0FDzzruyVECATHXKHFs9eJ', 'VPRjCeoBqrI')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: X&Y 대표곡: Fix You
+INSERT INTO track (id, mv_url)
+VALUES ('7LVHVU3tWfcxj5aiPFEW4Q', 'k4V3Mo61fJM')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Music Of The Spheres 대표곡: My Universe
+INSERT INTO track (id, mv_url)
+VALUES ('46HNZY1i7O6jwTA7Slo2PI', '3YqPKLZF_WU')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- Coldplay 끝
+
+
+-- Avicii (1vCWHaC5f2uS3yhpwWbIA6)
+
+-- 아티스트 대표곡: Wake Me Up
+INSERT INTO track (id, mv_url)
+VALUES ('0nrRP2bk19rLc0orkWPQk2', 'IcrbM1l_BoI')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: True 대표곡: Wake Me Up
+INSERT INTO track (id, mv_url)
+VALUES ('0nrRP2bk19rLc0orkWPQk2', 'IcrbM1l_BoI')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: The Days / Nights 대표곡: The Nights
+INSERT INTO track (id, mv_url)
+VALUES ('0ct6r3EGTcMLPtrXHDvVjc', 'UtF6Jej8yb4')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Stories 대표곡: Waiting For Love
+INSERT INTO track (id, mv_url)
+VALUES ('2P4OICZRVAQcYAV2JReRfj', 'cHHLHGNpCSA')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Avicii Forever 대표곡: Let's Ride Away
+INSERT INTO track (id, mv_url)
+VALUES ('4tdSojwmf4vNZMWS6HcQWb', 'V6Iiuz_3rsE')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: TIM 대표곡: SOS (feat. Aloe Blacc)
+INSERT INTO track (id, mv_url)
+VALUES ('2x0RZdkZcD8QRI53XT4GI5', 'u8tdT5pAE34')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- Avicii 끝
+
+
+-- YOASOBI (64tJ2EAv1R6UaZqc4iOCyj)
+
+-- 아티스트 대표곡: アイドル
+INSERT INTO track (id, mv_url)
+VALUES ('1hAloWiinXLPQUJxrJReb1', 'ZRtdQ81jPUQ')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: THE BOOK 3 대표곡: アイドル
+INSERT INTO track (id, mv_url)
+VALUES ('1hAloWiinXLPQUJxrJReb1', 'ZRtdQ81jPUQ')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: THE BOOK 2 대표곡: 怪物
+INSERT INTO track (id, mv_url)
+VALUES ('2vjY3jGKElvqXoaGNEuYef', 'dy90tA3TT1c')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: E-SIDE 대표곡: Into The Night
+INSERT INTO track (id, mv_url)
+VALUES ('2vwzbB62VEfzCARNu9Nrrm', 'QdnVT22LBBs')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: E-SIDE 3 대표곡: Biri-Biri - English Version
+INSERT INTO track (id, mv_url)
+VALUES ('6f8RGfNa1cSk7I04vfFEQp', '01x2NNFGtl8')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: E-SIDE 2 대표곡: The Blessing
+INSERT INTO track (id, mv_url)
+VALUES ('4KFvsGchCp4c7zphBlPxz3', '3eytpBOkOFA')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- YOASOBI 끝
+
+
+-- Sam Smith (2wY79sveU1sp5g7SokKOiI)
+
+-- 아티스트 대표곡: Latch
+INSERT INTO track (id, mv_url)
+VALUES ('51ODNNDZm21HU7wI7cccRr', '93ASUImTedo')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: The Thrill Of It All (Special Edition) 대표곡: Too Good At Goodbyes
+INSERT INTO track (id, mv_url)
+VALUES ('1mXVgsBdtIVeCLJnSnmtdV', 'J_ub7Etch2U')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Gloria 대표곡: Unholy (feat. Kim Petras)
+INSERT INTO track (id, mv_url)
+VALUES ('0NZPBYD5qbEWRs3PrGiRkT', 'Uq9gPaIzbe8')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: In The Lonely Hour (Drowning Shadows Edition) 대표곡: Lay Me Down (feat. John Legend)
+INSERT INTO track (id, mv_url)
+VALUES ('2T3XExryIariqO0fIfXOdw', 'lvJX7OgPYww')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: In The Lonely Hour (10th Anniversary Edition) 대표곡: Writing's On The Wall - From "Spectre" Soundtrack
+INSERT INTO track (id, mv_url)
+VALUES ('7tToQ5ILIIeRmcRnGJjQ2L', '8jzDnsjYv9A')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: BBC Proms At The Royal Albert Hall 대표곡: Like I Can - BBC Proms At The Royal Albert Hall
+INSERT INTO track (id, mv_url)
+VALUES ('3jVawVx9Wif3G9VMzJnuca', 'loccPMjK3EM')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- Sam Smith 끝
+
+
+-- Sia (5WUlDfRSoLAfcVSX1WnrxN)
+
+-- 아티스트 대표곡: Titanium (feat. Sia)
+INSERT INTO track (id, mv_url)
+VALUES ('2i1AVZAYLhrQTvzr1hu7Jt', 'JRfuAukYTKg')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: This Is Acting (Deluxe Version) 대표곡: Unstoppable
+INSERT INTO track (id, mv_url)
+VALUES ('1yvMUkIOTeUNtNWlWRgANS', 'YaEG2aWJnZ8')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: This Is Acting 대표곡: Cheap Thrills (feat. Sean Paul)
+INSERT INTO track (id, mv_url)
+VALUES ('378iszndTZAR4dH8kwsLC6', 'nYh-n7EOtMA')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Colour The Small One 대표곡: Breathe Me
+INSERT INTO track (id, mv_url)
+VALUES ('7jqzZyJJLrpkRFYGpkqSK6', 'ghPcYqn0p4Y')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Colour The Small One (Deluxe Edition) 대표곡: Breathe Me
+INSERT INTO track (id, mv_url)
+VALUES ('2Bo0hh0yoQReC4reJav5DT', 'ghPcYqn0p4Y')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Some People Have REAL Problems 대표곡: Soon We'll Be Found
+INSERT INTO track (id, mv_url)
+VALUES ('4eiL3JVHop31N0PwPv6M9D', 't1x8DMfbYN4')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- Sia 끝
+
+
+-- Lady Gaga (1HY2Jd0NmPuamShAr6KMms)
+
+-- 아티스트 대표곡: Die With A Smile
+INSERT INTO track (id, mv_url)
+VALUES ('7so0lgd0zP2Sbgs2d7a1SZ', 'kPa7bsKwL-c')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: MAYHEM 대표곡: Die With A Smile
+INSERT INTO track (id, mv_url)
+VALUES ('7so0lgd0zP2Sbgs2d7a1SZ', 'kPa7bsKwL-c')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: The Fame Monster (Deluxe Edition) 대표곡: Bad Romance
+INSERT INTO track (id, mv_url)
+VALUES ('0SiywuOBRcynK0uKGWdCnn', 'qrO4YZeyl0I')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: A Star Is Born Soundtrack 대표곡: Shallow
+INSERT INTO track (id, mv_url)
+VALUES ('2VxeLyX666F8uXCJ0dZF8B', 'bo_efYhYU2A')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: A Star Is Born Soundtrack (Without Dialogue) 대표곡: Always Remember Us This Way
+INSERT INTO track (id, mv_url)
+VALUES ('2rbDhOo9Fh61Bbu23T2qCk', '5vheNbQlsyU')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Born This Way (International Special Edition Version) 대표곡: Judas
+INSERT INTO track (id, mv_url)
+VALUES ('7F25roCtYi55JouckaayPC', 'wagn8Wrmzuc')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- Lady Gaga 끝
+
+
+-- ===== 2025-06-30 수집 끝 =====
+
