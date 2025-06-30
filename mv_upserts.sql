@@ -239,3 +239,160 @@ ON DUPLICATE KEY UPDATE
 
 -- ===== 2025-06-30 수집 끝 =====
 
+
+-- ===== 2025-06-30 수집 시작 =====
+
+-- Ed Sheeran (6eUKZXaKkcviH0Ku9w2n3V)
+
+-- 아티스트 대표곡: Azizam
+INSERT INTO track (id, mv_url)
+VALUES ('0GRc3eGTg8HBdWLRGYgqIc', 'MI9ZpIKgyf0')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: ÷ (Deluxe) 대표곡: Shape of You
+INSERT INTO track (id, mv_url)
+VALUES ('7qiZfU4dY1lWllzX7mPBI3', 'JGwWNGJdvx8')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: = 대표곡: Shivers
+INSERT INTO track (id, mv_url)
+VALUES ('50nfwKoDiSYg8zOCREWAm5', 'Il0S8BoucSA')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: x (Deluxe Edition) 대표곡: Photograph
+INSERT INTO track (id, mv_url)
+VALUES ('1HNkqx9Ahdgi1Ixy2xkKkL', 'nSDgHBxUbVQ')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: x (Wembley Edition) 대표곡: Photograph
+INSERT INTO track (id, mv_url)
+VALUES ('1dyRiQZRGHZvesHh2hbp8g', 'nSDgHBxUbVQ')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: +-=÷× (Tour Collection) 대표곡: I Don't Care
+INSERT INTO track (id, mv_url)
+VALUES ('6hvRoJ0BTZywxu8UCPBkzx', 'y83x7MgzWOA')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- Ed Sheeran 끝
+
+
+-- Billie Eilish (6qqNVTkY8uBg9cP3Jd7DAH)
+
+-- 아티스트 대표곡: BIRDS OF A FEATHER
+INSERT INTO track (id, mv_url)
+VALUES ('6dOtVTDdiauQNBQEDOtlAB', 'V9PVRfjEBTI')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: HIT ME HARD AND SOFT 대표곡: BIRDS OF A FEATHER
+INSERT INTO track (id, mv_url)
+VALUES ('6dOtVTDdiauQNBQEDOtlAB', 'V9PVRfjEBTI')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: WHEN WE ALL FALL ASLEEP, WHERE DO WE GO? 대표곡: when the party's over
+INSERT INTO track (id, mv_url)
+VALUES ('43zdsphuZLzwA9k4DJhU0I', 'pbMwTqkKSps')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Happier Than Ever 대표곡: Happier Than Ever
+INSERT INTO track (id, mv_url)
+VALUES ('4RVwu0g32PAqgUiJoXsdF8', '5GJWxDKyk3A')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- Billie Eilish 끝
+
+
+-- The Weeknd (1Xyo4u8uXC1ZmMpatF05PJ)
+
+-- 아티스트 대표곡: Timeless (feat Playboi Carti)
+INSERT INTO track (id, mv_url)
+VALUES ('0FIDCNYYjNvPVimz5icugS', '5EpyN_6dqyk')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Hurry Up Tomorrow 대표곡: Timeless (feat Playboi Carti)
+INSERT INTO track (id, mv_url)
+VALUES ('0FIDCNYYjNvPVimz5icugS', '5EpyN_6dqyk')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: After Hours 대표곡: Blinding Lights
+INSERT INTO track (id, mv_url)
+VALUES ('0VjIjW4GlUZAMYd2vXMi3b', '4NRXx6U8ABQ')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Starboy 대표곡: Starboy
+INSERT INTO track (id, mv_url)
+VALUES ('7MXVkk9YMctZqd1Srtv4MB', '34Na4j8AVgA')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Beauty Behind The Madness 대표곡: The Hills
+INSERT INTO track (id, mv_url)
+VALUES ('7fBv7CLKzipRk6EC6TWHOB', 'yzTuBuRdAyA')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: My Dear Melancholy, 대표곡: Call Out My Name
+INSERT INTO track (id, mv_url)
+VALUES ('09mEdoA6zrmBPgTEN5qXmN', 'M4ZoCHID9GI')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- The Weeknd 끝
+
+
+-- Ariana Grande (66CXWjxzNUsdJxJ2JdwvnR)
+
+-- 아티스트 대표곡: we can't be friends (wait for your love)
+INSERT INTO track (id, mv_url)
+VALUES ('51ZQ1vr10ffzbwIjDCwqm4', 'KNtJGQkC-WI')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: eternal sunshine 대표곡: we can't be friends (wait for your love)
+INSERT INTO track (id, mv_url)
+VALUES ('51ZQ1vr10ffzbwIjDCwqm4', 'KNtJGQkC-WI')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: My Everything (Deluxe) 대표곡: One Last Time
+INSERT INTO track (id, mv_url)
+VALUES ('7xoUc6faLbCqZO6fQEYprd', 'BPgEgaPk62M')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: thank u, next 대표곡: 7 rings
+INSERT INTO track (id, mv_url)
+VALUES ('6ocbgoVGwYJhOv1GgI9NsF', 'QYh6mYIJG2Y')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: eternal sunshine deluxe: brighter days ahead 대표곡: twilight zone
+INSERT INTO track (id, mv_url)
+VALUES ('1YRbAonLvmuUILvQso0gUM', 'XKPAzTPsWrw')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Positions 대표곡: positions
+INSERT INTO track (id, mv_url)
+VALUES ('35mvY5S1H3J2QZyna3TFe0', 'tcYodQoapMg')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- Ariana Grande 끝
+
+
+-- ===== 2025-06-30 수집 끝 =====
+
