@@ -1211,4 +1211,234 @@ ON DUPLICATE KEY UPDATE
 
 -- ===== 2025-06-30 수집 끝 =====
 
+-- ===== 2025-06-30 수집 시작 =====
 
+-- KIM BUMSOO (20K5puLWHL28ckI4LjieDt)
+
+-- 아티스트 대표곡: 보고싶다
+INSERT INTO track (id, mv_url)
+VALUES ('4i39vkBJzBnYvBMua65Rwi', 'VlxTWhoPHhY')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: SOLISTA Part.2 대표곡: Last Love
+INSERT INTO track (id, mv_url)
+VALUES ('1Uich3MOYxcBw14WavzZpi', 'EoP69Ld2Tkg')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Get All Right SHOWCHESTRA Live Album 대표곡: Miss you
+INSERT INTO track (id, mv_url)
+VALUES ('3OJENg3aGHj5v1cSq3Xnbv', 'VlxTWhoPHhY')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: HIM 대표곡: In Front Of Your House
+INSERT INTO track (id, mv_url)
+VALUES ('0rViDA4QiHTkYuzxYUEe9n', 'inmjXMnmdJ4')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Remember 대표곡: 하루
+INSERT INTO track (id, mv_url)
+VALUES ('0UheN8BG25awH0QR8Ufauw', 'D8KhRJdvXJE')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Again (Remake) 대표곡: Just like the first time
+INSERT INTO track (id, mv_url)
+VALUES ('1BdPit542k7sJZVxnRWLJE', 'BSGedeelkaU')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- KIM BUMSOO 끝
+
+
+-- Naul (22oiFjlZPKJ1XphV2et1u1)
+
+-- 아티스트 대표곡: Memory Of The Wind
+INSERT INTO track (id, mv_url)
+VALUES ('1Mt5bRtfZXBRt56L1NWRLY', 'f5ShDNOqq1E')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Principle Of My Soul 대표곡: Memory Of The Wind
+INSERT INTO track (id, mv_url)
+VALUES ('1Mt5bRtfZXBRt56L1NWRLY', 'f5ShDNOqq1E')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Back To The Soul Flight 대표곡: 귀로
+INSERT INTO track (id, mv_url)
+VALUES ('5B6ewNeXBcIDHqzsgAn6Dk', 'upA01bvUemQ')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Sound Doctrine 대표곡: Feel Like
+INSERT INTO track (id, mv_url)
+VALUES ('0BFh36JElZiW5XJGCXUCcy', 'CEW-yRtd5r8')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- Naul 끝
+
+
+-- Park Hyo Shin (57htMBtzpppc1yoXgjbslj)
+
+-- 아티스트 대표곡: Winter Ahead (with PARK HYO SHIN)
+INSERT INTO track (id, mv_url)
+VALUES ('7G7mSV4BebkoHWwKTDvXu9', 'HAWYOuMGkK0')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: I am A Dreamer 대표곡: Wild Flower
+INSERT INTO track (id, mv_url)
+VALUES ('5wQgwLigxPtDwDMMFCu2tV', 'OxgiiyLp5pk')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: The Breeze Of Sea 대표곡: 추억은 사랑을 닮아
+INSERT INTO track (id, mv_url)
+VALUES ('0MjRPE2eH1ZQm9DC3BtZyq', 'wZIbDXv7cfA')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Neo Classicism 대표곡: 기억속의 먼 그대에게
+INSERT INTO track (id, mv_url)
+VALUES ('3FGERgCbqbX0h5SiTsiSvf', 'qFxlZ7gR7cs')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Gift E.C.H.O 대표곡: After Love
+INSERT INTO track (id, mv_url)
+VALUES ('4Q5XBV4sCvggtvFuVORCkF', 'Mndlp2ZMzwE')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Soul Tree 대표곡: 그곳에 서서
+INSERT INTO track (id, mv_url)
+VALUES ('5cAhEZ3hAKFMyke5ip6eeO', 'JoEYxP07jas')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- Park Hyo Shin 끝
+
+
+-- M.C the Max (3MaRWfwKpbYnkYHC5gRKYo)
+
+-- 아티스트 대표곡: No matter where
+INSERT INTO track (id, mv_url)
+VALUES ('7oT5JOWwxnwcZRI6NLzhWs', 'va5rf20Un24')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Pathos 대표곡: No matter where
+INSERT INTO track (id, mv_url)
+VALUES ('7oT5JOWwxnwcZRI6NLzhWs', 'va5rf20Un24')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: M.C The Max! Vol.1 대표곡: One Love
+INSERT INTO track (id, mv_url)
+VALUES ('5alMW854ShjDbupOJtaNKC', '4i__bZyWzSc')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Circular 대표곡: One Day Only
+INSERT INTO track (id, mv_url)
+VALUES ('2JJTLtccyOLEqFGMaJEyZv', 'H30Dguzmrf0')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: UNVEILING 대표곡: Wind that Blows
+INSERT INTO track (id, mv_url)
+VALUES ('1456YlfEiL9mtoqg83PEfg', 'JQ6wTmaEyL4')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: CEREMONIA (Complete Edition) 대표곡: BLOOM
+INSERT INTO track (id, mv_url)
+VALUES ('3qiCQxvtt4ipy4J9SOXwb6', '3XUe2PsadEk')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- M.C the Max 끝
+
+
+-- Sung Si Kyung (7jFUYMpMUBDL4JQtMZ5ilc)
+
+-- 아티스트 대표곡: Every moment of you
+INSERT INTO track (id, mv_url)
+VALUES ('2tY05I4MCH2eKnWTITUspC', 'Dbxzh078jr4')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: 4집 - 다시 꿈꾸고 싶다 대표곡: 두 사람
+INSERT INTO track (id, mv_url)
+VALUES ('3tEPgUhheyOJQhnH2IwQna', 'edpQqrMQ4mM')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: The Ballads 대표곡: 거리에서
+INSERT INTO track (id, mv_url)
+VALUES ('1J0NAemu98Bg5y39sqqfMI', 'qx4xDFP2WDU')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: 처음처럼 대표곡: 내게 오는 길 - Bonus Track
+INSERT INTO track (id, mv_url)
+VALUES ('5rfOHC8IMqyvqAi4TUrnsn', '5hINYNZslP0')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Melodie D’ Amour 대표곡: 넌 감동이었어
+INSERT INTO track (id, mv_url)
+VALUES ('1vWUaugwrcpD9axrZaLekY', 'JG8DufK1xP0')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Double Life ; The Other Side 대표곡: 차마...
+INSERT INTO track (id, mv_url)
+VALUES ('1sAWuJLbUYdNdl8rrCxK5A', 'aWXy974QLCk')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- Sung Si Kyung 끝
+
+
+-- Na Yoon Kwon (49fyJl5wIzI5GtRuCKxKRw)
+
+-- 아티스트 대표곡: 나였으면
+INSERT INTO track (id, mv_url)
+VALUES ('7sp5iTQjB7GHXX4TKrhOaO', '05zKdcehx5U')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: 중독 대표곡: 나였으면
+INSERT INTO track (id, mv_url)
+VALUES ('7sp5iTQjB7GHXX4TKrhOaO', '05zKdcehx5U')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: 후 대표곡: 뒷모습
+INSERT INTO track (id, mv_url)
+VALUES ('5mZVQ8HeA5kkvEPF9btBRA', 'xr52Cknntro')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: THE 3RD ALBUM - Thank You 대표곡: 10분 거리인데
+INSERT INTO track (id, mv_url)
+VALUES ('7nJWMRANuLhLGozwNiZiX4', 'u_b8kdQ01II')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: 태풍 (Original Motion Picture Soundtrack) 대표곡: 태풍
+INSERT INTO track (id, mv_url)
+VALUES ('2iAWYftORJKvy0LRojDFbc', 'HSb1sD8jStY')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- Na Yoon Kwon 끝
+
+
+-- ===== 2025-06-30 수집 끝 =====
