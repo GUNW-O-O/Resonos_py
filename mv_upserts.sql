@@ -396,3 +396,207 @@ ON DUPLICATE KEY UPDATE
 
 -- ===== 2025-06-30 수집 끝 =====
 
+
+-- ===== 2025-06-30 수집 시작 =====
+
+-- Eminem (7dGJo4pcD2V6oG8kP0tJRR)
+
+-- 아티스트 대표곡: Without Me
+INSERT INTO track (id, mv_url)
+VALUES ('7lQ8MOhq6IN2w8EYcFNSUk', 'YVkUvmDQ3HY')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: The Eminem Show 대표곡: Without Me
+INSERT INTO track (id, mv_url)
+VALUES ('7lQ8MOhq6IN2w8EYcFNSUk', 'YVkUvmDQ3HY')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Recovery 대표곡: Love The Way You Lie
+INSERT INTO track (id, mv_url)
+VALUES ('15JINEqzVMv3SvJTAXAKED', 'uelHwf8o7_U')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Encore (Deluxe Version) 대표곡: Mockingbird
+INSERT INTO track (id, mv_url)
+VALUES ('561jH07mF1jHuk7KlaeF0s', 'S9bCLPwzSC0')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Music To Be Murdered By 대표곡: Godzilla (feat. Juice WRLD)
+INSERT INTO track (id, mv_url)
+VALUES ('7FIWs0pqAYbP91WWM0vlTQ', 'r_0JjYUe5jo')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: The Death of Slim Shady (Coup De Grâce) 대표곡: Houdini
+INSERT INTO track (id, mv_url)
+VALUES ('1CDQzbCz4KSQxHe7LMEgRM', '22tVWwmTie8')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- Eminem 끝
+
+
+-- Drake (3TVXtAsR1Inumwj472S9r4)
+
+-- 아티스트 대표곡: NOKIA
+INSERT INTO track (id, mv_url)
+VALUES ('2u9S9JJ6hTZS3Vf22HOZKg', '8ekJMC8OtGU')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: $ome $exy $ongs 4 U 대표곡: NOKIA
+INSERT INTO track (id, mv_url)
+VALUES ('2u9S9JJ6hTZS3Vf22HOZKg', '8ekJMC8OtGU')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Views 대표곡: One Dance
+INSERT INTO track (id, mv_url)
+VALUES ('1zi7xx7UVEFkmKfv06H8x0', 'qL7zrWcv6XY')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: More Life 대표곡: Passionfruit
+INSERT INTO track (id, mv_url)
+VALUES ('5mCPDVBb16L4XQwDdbRUpz', 'OVNZ5-e0HeQ')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Scorpion 대표곡: God's Plan
+INSERT INTO track (id, mv_url)
+VALUES ('6DCZcSspjsKoFjzjrWoCdn', 'xpVfcZ0ZcFM')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Take Care (Deluxe) 대표곡: Headlines
+INSERT INTO track (id, mv_url)
+VALUES ('6LxSe8YmdPxy095Ux6znaQ', 'cimoNqiulUE')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- Drake 끝
+
+
+-- Justin Bieber (1uNFoZAHBGtllmzznpCI3s)
+
+-- 아티스트 대표곡: Beauty And A Beat
+INSERT INTO track (id, mv_url)
+VALUES ('6QFCMUUq1T2Vf5sFUXcuQ7', 'Ys7-6_t7OEQ')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Purpose (Deluxe) 대표곡: Sorry
+INSERT INTO track (id, mv_url)
+VALUES ('09CtPGIpYB4BrO8qb1RGsF', 'fRh_vgS2dFE')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Journals 대표곡: Confident
+INSERT INTO track (id, mv_url)
+VALUES ('3JsydWaf2Ev4ehaLUjj3SY', '47YClVMlthI')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: My World 2.0 대표곡: Baby
+INSERT INTO track (id, mv_url)
+VALUES ('6epn3r7S14KUqlReYr77hA', 'kffacxfA7G4')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Justice 대표곡: Ghost
+INSERT INTO track (id, mv_url)
+VALUES ('6I3mqTwhRpn34SLVafSH7G', 'Fp8msa5uYsc')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Believe 대표곡: Beauty And A Beat
+INSERT INTO track (id, mv_url)
+VALUES ('6QFCMUUq1T2Vf5sFUXcuQ7', 'Ys7-6_t7OEQ')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- Justin Bieber 끝
+
+
+-- Bruno Mars (0du5cEVh5yTK9QJze8zA0C)
+
+-- 아티스트 대표곡: Die With A Smile
+INSERT INTO track (id, mv_url)
+VALUES ('7so0lgd0zP2Sbgs2d7a1SZ', 'kPa7bsKwL-c')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Unorthodox Jukebox 대표곡: Locked out of Heaven
+INSERT INTO track (id, mv_url)
+VALUES ('3w3y8KPTfNeOKPiqUTakBh', 'e-fA-gBCkj0')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: 24K Magic 대표곡: That's What I Like
+INSERT INTO track (id, mv_url)
+VALUES ('0KKkJNfGyhkQ5aFogxQAPU', 'PMivT7MJ41M')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Doo-Wops & Hooligans 대표곡: Just the Way You Are
+INSERT INTO track (id, mv_url)
+VALUES ('47Slg6LuqLaX0VodpSCvPt', 'LjhCEhWiKXk')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: An Evening With Silk Sonic 대표곡: Leave The Door Open
+INSERT INTO track (id, mv_url)
+VALUES ('4pryE6cN2gFL1FVF5fYINl', 'adLGHcj_fmA')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- Bruno Mars 끝
+
+
+-- Rihanna (5pKCCKE2ajJHZ9KAiaK11H)
+
+-- 아티스트 대표곡: We Found Love
+INSERT INTO track (id, mv_url)
+VALUES ('6qn9YLKt13AGvpq9jfO8py', 'tg00YEETFzg')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Loud (Japan Version) 대표곡: Only Girl (In The World)
+INSERT INTO track (id, mv_url)
+VALUES ('2ENexcMEMsYk0rVJigVD3i', 'pa14VNsdSYM')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: ANTI (Deluxe) 대표곡: Love On The Brain
+INSERT INTO track (id, mv_url)
+VALUES ('5oO3drDxtziYU2H1X23ZIp', 'e6FFsY-9MZo')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Talk That Talk 대표곡: We Found Love
+INSERT INTO track (id, mv_url)
+VALUES ('0U10zFw4GlBacOy9VDGfGL', 'tg00YEETFzg')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Unapologetic (Deluxe) 대표곡: Loveeeeeee Song
+INSERT INTO track (id, mv_url)
+VALUES ('5Mk1tgVrSuoWWwPVFNS0jB', 'dUfok6_9kZQ')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Loud 대표곡: Only Girl (In The World)
+INSERT INTO track (id, mv_url)
+VALUES ('0AH6WMe3OlAlUb5miXt2FQ', 'pa14VNsdSYM')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- Rihanna 끝
+
+
+-- ===== 2025-06-30 수집 끝 =====
+
