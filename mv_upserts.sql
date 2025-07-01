@@ -2483,6 +2483,3 @@ ON DUPLICATE KEY UPDATE
 
 
 -- ===== 2025-07-01 수집 끝 =====
-
-403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&maxResults=1&q=Halsey%20Closer%20of
-ficial%20music%20video&key=AIzaSyD8pnS-yKjfAjwCIA_bcI-ktVOcmNHMpoE

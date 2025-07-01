@@ -38,6 +38,7 @@ def search_youtube_video(query):
     res = requests.get(url)
     res.raise_for_status()
     items = res.json().get("items", [])
+    time.sleep(1)  # YouTube 제한 대응
     return items[0]["id"]["videoId"] if items else None
 
 def make_sql(track_id, video_id, desc):
@@ -58,6 +59,22 @@ def save_synced_artist(artist_id, artist_name, file_path="synced_artists.txt"):
         f.write(f"{artist_id} # {artist_name}\n")
 
 # -------------------------
+# Spotify 요청 안전 실행
+# -------------------------
+def safe_get(url, headers, max_retries=3):
+    for _ in range(max_retries):
+        res = requests.get(url, headers=headers)
+        if res.status_code == 429:
+            retry_after = int(res.headers.get("Retry-After", 1))
+            print(f"🕒 429 오류 발생. {retry_after}초 대기 후 재시도")
+            time.sleep(retry_after)
+            continue
+        res.raise_for_status()
+        time.sleep(0.3)
+        return res
+    raise Exception("❌ Spotify API 요청 실패 (429 반복)")
+
+# -------------------------
 # Spotify API 함수들
 # -------------------------
 SPOTIFY_TOKEN = get_spotify_token(SPOTIFY_CLIENT_ID, SPOTIFY_CLIENT_SECRET)
@@ -65,43 +82,33 @@ HEADERS = {"Authorization": f"Bearer {SPOTIFY_TOKEN}"}
 
 def get_artist_name(artist_id):
     url = f"https://api.spotify.com/v1/artists/{artist_id}"
-    res = requests.get(url, headers=HEADERS)
-    res.raise_for_status()
-    return res.json()["name"]
+    return safe_get(url, HEADERS).json()["name"]
 
 def get_artist_top_tracks(artist_id):
     url = f"https://api.spotify.com/v1/artists/{artist_id}/top-tracks?market=KR"
-    res = requests.get(url, headers=HEADERS)
-    res.raise_for_status()
-    return res.json()["tracks"]
+    return safe_get(url, HEADERS).json()["tracks"]
 
 def get_artist_albums(artist_id):
     albums = {}
     url = f"https://api.spotify.com/v1/artists/{artist_id}/albums?include_groups=album&market=KR&limit=50"
-    res = requests.get(url, headers=HEADERS)
-    res.raise_for_status()
-    for item in res.json().get("items", []):
+    for item in safe_get(url, HEADERS).json().get("items", []):
         albums[item["id"]] = item["name"]
     return albums
 
 def get_album_tracks(album_id):
     url = f"https://api.spotify.com/v1/albums/{album_id}/tracks?limit=50"
-    res = requests.get(url, headers=HEADERS)
-    res.raise_for_status()
-    return res.json().get("items", [])
+    return safe_get(url, HEADERS).json().get("items", [])
 
 def get_track_popularity(track_id):
     url = f"https://api.spotify.com/v1/tracks/{track_id}"
-    res = requests.get(url, headers=HEADERS)
-    res.raise_for_status()
-    return res.json()["popularity"]
+    return safe_get(url, HEADERS).json()["popularity"]
 
 # -------------------------
 # 아티스트 리스트
 # -------------------------
 artist_ids = [
-    "2YZyLoL8N0Wb9xBt1NhZWg",  # kendrick
-    "1McMsnEElThX1knmY4oliG",  # olivia
+    "06HL4z0CvFAxyc27GXpf02",  # Taylor Swift
+    "3Nrfpe0tUJi4K4DXYWgMUX",  # BTS
 ]
 
 synced_artists = load_synced_artists()
@@ -139,7 +146,6 @@ for artist_id in artist_ids:
             sql_lines.append(make_sql(top_track_id, video_id, f"아티스트 대표곡: {top_track_name}"))
             used_track_ids.add(top_track_id)
             added_count += 1
-        time.sleep(1)
 
         # 앨범 대표곡 최대 5개
         albums = get_artist_albums(artist_id)
@@ -162,7 +168,6 @@ for artist_id in artist_ids:
                     if tid in used_track_ids:
                         continue
                     popularity = get_track_popularity(tid)
-                    time.sleep(0.1)
                     if popularity > max_popularity:
                         max_popularity = popularity
                         rep_track_id = tid
@@ -176,7 +181,6 @@ for artist_id in artist_ids:
             except Exception as e:
                 print(f"⚠️ 앨범 '{album_name}' 오류: {e}")
 
-        # 상위 5개 앨범 대표곡
         top_albums = sorted(album_representatives, key=lambda x: x[4], reverse=True)[:5]
         for album_id, album_name, track_id, track_name, popularity in top_albums:
             if added_count >= 6:
@@ -188,7 +192,6 @@ for artist_id in artist_ids:
                     sql_lines.append(make_sql(track_id, video_id, f"앨범: {album_name} 대표곡: {track_name}"))
                     used_track_ids.add(track_id)
                     added_count += 1
-                    time.sleep(1)
 
         # 보충: 부족하면 top-tracks에서 채우기
         for track in top_tracks:
@@ -204,7 +207,6 @@ for artist_id in artist_ids:
                 sql_lines.append(make_sql(tid, video_id, f"추가 인기곡 보충: {tname}"))
                 used_track_ids.add(tid)
                 added_count += 1
-                time.sleep(1)
 
         sql_lines.append(f"-- {artist_name} 끝\n")
 
