@@ -107,8 +107,8 @@ def get_track_popularity(track_id):
 # 아티스트 리스트
 # -------------------------
 artist_ids = [
-    "06HL4z0CvFAxyc27GXpf02",  # Taylor Swift
-    "3Nrfpe0tUJi4K4DXYWgMUX",  # BTS
+    "06HL4z0CvFAxyc27GXpf02",  # Imagine Dragons
+    "2h93pZq0e7k5yf4dywlkpM",  # Frank Ocean
 ]
 
 synced_artists = load_synced_artists()
