@@ -6,12 +6,17 @@ import base64
 from dotenv import load_dotenv
 import os
 
-# .env에서 환경변수 불러오기
+# -------------------------
+# 환경변수 불러오기
+# -------------------------
 load_dotenv()
 SPOTIFY_CLIENT_ID = os.getenv("SPOTIFY_CLIENT_ID")
 SPOTIFY_CLIENT_SECRET = os.getenv("SPOTIFY_CLIENT_SECRET")
 YOUTUBE_API_KEY = os.getenv("YOUTUBE_API_KEY")
 
+# -------------------------
+# 유틸 함수들
+# -------------------------
 def get_spotify_token(client_id, client_secret):
     print("▶️ Spotify 토큰 요청 중...")
     auth = f"{client_id}:{client_secret}"
@@ -42,6 +47,19 @@ VALUES ('{track_id}', '{video_id}')
 ON DUPLICATE KEY UPDATE
     mv_url = VALUES(mv_url);"""
 
+def load_synced_artists(file_path="synced_artists.txt"):
+    if not os.path.exists(file_path):
+        return set()
+    with open(file_path, "r", encoding="utf-8") as f:
+        return set(line.split("#")[0].strip() for line in f if line.strip())
+
+def save_synced_artist(artist_id, artist_name, file_path="synced_artists.txt"):
+    with open(file_path, "a", encoding="utf-8") as f:
+        f.write(f"{artist_id} # {artist_name}\n")
+
+# -------------------------
+# Spotify API 함수들
+# -------------------------
 SPOTIFY_TOKEN = get_spotify_token(SPOTIFY_CLIENT_ID, SPOTIFY_CLIENT_SECRET)
 HEADERS = {"Authorization": f"Bearer {SPOTIFY_TOKEN}"}
 
@@ -79,27 +97,38 @@ def get_track_popularity(track_id):
     res.raise_for_status()
     return res.json()["popularity"]
 
-# 아티스트 리스트 (원하는 만큼 넣으세요)
+# -------------------------
+# 아티스트 리스트
+# -------------------------
 artist_ids = [
-    "06HL4z0CvFAxyc27GXpf02",  # Taylor Swift
-    "3Nrfpe0tUJi4K4DXYWgMUX",  # BTS
+    "20JZFwl6HVl6yg8a4H3ZqK",  # 패닉
+    "6KImCVD70vtIoJWnq6nGn3",  # 해리
 ]
 
+synced_artists = load_synced_artists()
+artist_ids = [aid for aid in artist_ids if aid not in synced_artists]
+
+# -------------------------
+# DML 출력 파일 설정
+# -------------------------
 output_file = "mv_upserts.sql"
 today = datetime.now().strftime("%Y-%m-%d")
 
 with open(output_file, "a", encoding="utf-8") as f:
     f.write(f"\n-- ===== {today} 수집 시작 =====\n\n")
 
+# -------------------------
+# 메인 루프
+# -------------------------
 for artist_id in artist_ids:
     try:
         artist_name = get_artist_name(artist_id)
         print(f"\n🎤 아티스트 처리 중: {artist_name} ({artist_id})")
         sql_lines = [f"-- {artist_name} ({artist_id})"]
 
-        # 아티스트 대표곡
+        # 대표곡
         top_track_id, top_track_name = get_artist_top_track(artist_id)
-        print(f"🎵 아티스트 대표곡: {top_track_name}")
+        print(f"🎵 대표곡: {top_track_name}")
         video_id = search_youtube_video(f"{artist_name} {top_track_name} official music video")
         if video_id:
             sql_lines.append(make_sql(top_track_id, video_id, f"아티스트 대표곡: {top_track_name}"))
@@ -151,6 +180,9 @@ for artist_id in artist_ids:
 
         with open(output_file, "a", encoding="utf-8") as f:
             f.write("\n\n".join(sql_lines) + "\n\n")
+
+        save_synced_artist(artist_id, artist_name)
+        print(f"✅ 아티스트 처리 완료: {artist_name}\n")
 
     except Exception as e:
         print(f"❌ 아티스트 오류: {artist_id} - {e}")
