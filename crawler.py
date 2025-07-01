@@ -69,12 +69,11 @@ def get_artist_name(artist_id):
     res.raise_for_status()
     return res.json()["name"]
 
-def get_artist_top_track(artist_id):
+def get_artist_top_tracks(artist_id):
     url = f"https://api.spotify.com/v1/artists/{artist_id}/top-tracks?market=KR"
     res = requests.get(url, headers=HEADERS)
     res.raise_for_status()
-    track = res.json()["tracks"][0]
-    return track["id"], track["name"]
+    return res.json()["tracks"]
 
 def get_artist_albums(artist_id):
     albums = {}
@@ -101,8 +100,8 @@ def get_track_popularity(track_id):
 # 아티스트 리스트
 # -------------------------
 artist_ids = [
-    "20JZFwl6HVl6yg8a4H3ZqK",  # 패닉
-    "6KImCVD70vtIoJWnq6nGn3",  # 해리
+    "2YZyLoL8N0Wb9xBt1NhZWg",  # kendrick
+    "1McMsnEElThX1knmY4oliG",  # olivia
 ]
 
 synced_artists = load_synced_artists()
@@ -125,16 +124,24 @@ for artist_id in artist_ids:
         artist_name = get_artist_name(artist_id)
         print(f"\n🎤 아티스트 처리 중: {artist_name} ({artist_id})")
         sql_lines = [f"-- {artist_name} ({artist_id})"]
+        used_track_ids = set()
+        added_count = 0
 
-        # 대표곡
-        top_track_id, top_track_name = get_artist_top_track(artist_id)
+        # 대표곡 1개
+        top_tracks = get_artist_top_tracks(artist_id)
+        top_track = top_tracks[0]
+        top_track_id = top_track["id"]
+        top_track_name = top_track["name"]
+
         print(f"🎵 대표곡: {top_track_name}")
         video_id = search_youtube_video(f"{artist_name} {top_track_name} official music video")
         if video_id:
             sql_lines.append(make_sql(top_track_id, video_id, f"아티스트 대표곡: {top_track_name}"))
+            used_track_ids.add(top_track_id)
+            added_count += 1
         time.sleep(1)
 
-        # 앨범 대표곡 수집
+        # 앨범 대표곡 최대 5개
         albums = get_artist_albums(artist_id)
         album_representatives = []
 
@@ -152,6 +159,8 @@ for artist_id in artist_ids:
                 for track in tracks:
                     tid = track["id"]
                     tname = track["name"]
+                    if tid in used_track_ids:
+                        continue
                     popularity = get_track_popularity(tid)
                     time.sleep(0.1)
                     if popularity > max_popularity:
@@ -170,11 +179,32 @@ for artist_id in artist_ids:
         # 상위 5개 앨범 대표곡
         top_albums = sorted(album_representatives, key=lambda x: x[4], reverse=True)[:5]
         for album_id, album_name, track_id, track_name, popularity in top_albums:
-            print(f"💿 앨범 대표곡 선정: {track_name} ({popularity})")
-            video_id = search_youtube_video(f"{artist_name} {track_name} official music video")
+            if added_count >= 6:
+                break
+            print(f"💿 앨범 대표곡: {track_name} ({popularity})")
+            if track_id not in used_track_ids:
+                video_id = search_youtube_video(f"{artist_name} {track_name} official music video")
+                if video_id:
+                    sql_lines.append(make_sql(track_id, video_id, f"앨범: {album_name} 대표곡: {track_name}"))
+                    used_track_ids.add(track_id)
+                    added_count += 1
+                    time.sleep(1)
+
+        # 보충: 부족하면 top-tracks에서 채우기
+        for track in top_tracks:
+            if added_count >= 6:
+                break
+            tid = track["id"]
+            tname = track["name"]
+            if tid in used_track_ids:
+                continue
+            print(f"➕ 보충 곡: {tname}")
+            video_id = search_youtube_video(f"{artist_name} {tname} official music video")
             if video_id:
-                sql_lines.append(make_sql(track_id, video_id, f"앨범: {album_name} 대표곡: {track_name}"))
-            time.sleep(1)
+                sql_lines.append(make_sql(tid, video_id, f"추가 인기곡 보충: {tname}"))
+                used_track_ids.add(tid)
+                added_count += 1
+                time.sleep(1)
 
         sql_lines.append(f"-- {artist_name} 끝\n")
 

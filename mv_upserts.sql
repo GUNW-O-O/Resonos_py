@@ -1728,3 +1728,549 @@ ON DUPLICATE KEY UPDATE
 
 -- ===== 2025-06-30 수집 끝 =====
 
+
+-- ===== 2025-07-01 수집 시작 =====
+
+-- Panic! At The Disco (20JZFwl6HVl6yg8a4H3ZqK)
+
+-- 아티스트 대표곡: High Hopes
+INSERT INTO track (id, mv_url)
+VALUES ('1rqqCSm0Qe4I9rUvWncaom', 'IPXIgEAGe4U')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Pray for the Wicked 대표곡: High Hopes
+INSERT INTO track (id, mv_url)
+VALUES ('1rqqCSm0Qe4I9rUvWncaom', 'IPXIgEAGe4U')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Death of a Bachelor 대표곡: House of Memories
+INSERT INTO track (id, mv_url)
+VALUES ('2DgdHcjWmO3qd50RzuBLgZ', 'PgUBhEf59Dg')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: A Fever You Can't Sweat Out 대표곡: I Write Sins Not Tragedies
+INSERT INTO track (id, mv_url)
+VALUES ('5cY8y2XgOfkAh4kSWLFKkz', 'vc6vs-l5dkc')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Vices & Virtues 대표곡: The Ballad of Mona Lisa
+INSERT INTO track (id, mv_url)
+VALUES ('5rLi8B8qgk6qThwRnKHW2P', 'gOgpdp3lP8M')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Too Weird to Live, Too Rare to Die! 대표곡: This Is Gospel
+INSERT INTO track (id, mv_url)
+VALUES ('3yZQk5PC52CCmT4ZaTIKvv', 'tGE381tbQa8')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- Panic! At The Disco 끝
+
+
+-- Harry Styles (6KImCVD70vtIoJWnq6nGn3)
+
+-- 아티스트 대표곡: As It Was
+INSERT INTO track (id, mv_url)
+VALUES ('4Dvkj6JhhA12EX05fT7y2e', 'H5v3kku4y6Q')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Harry's House 대표곡: As It Was
+INSERT INTO track (id, mv_url)
+VALUES ('4Dvkj6JhhA12EX05fT7y2e', 'H5v3kku4y6Q')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Harry Styles 대표곡: Sign of the Times
+INSERT INTO track (id, mv_url)
+VALUES ('5Ohxk2dO5COHF1krpoPigN', 'qN4ooNx77u0')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Fine Line 대표곡: Watermelon Sugar
+INSERT INTO track (id, mv_url)
+VALUES ('6UelLqGlWMcVH1E5c4H7lY', 'E07s5ZYygMg')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- Harry Styles 끝
+
+
+-- Charlie Puth (6VuMaDnrHyPL1p4EHjYLi7)
+
+-- 아티스트 대표곡: We Don't Talk Anymore (feat. Selena Gomez)
+INSERT INTO track (id, mv_url)
+VALUES ('54PbBpquVfhfrwRwvjSXbI', '3AtDnEC4zak')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Voicenotes 대표곡: Attention
+INSERT INTO track (id, mv_url)
+VALUES ('5cF0dROlMOK5uNZtivgu50', 'nfs8NYg7yQM')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Nine Track Mind (Special Edition) 대표곡: We Don't Talk Anymore (feat. Selena Gomez)
+INSERT INTO track (id, mv_url)
+VALUES ('54PbBpquVfhfrwRwvjSXbI', '3AtDnEC4zak')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Nine Track Mind 대표곡: We Don't Talk Anymore (feat. Selena Gomez)
+INSERT INTO track (id, mv_url)
+VALUES ('06KyNuuMOX1ROXRhj787tj', '3AtDnEC4zak')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: CHARLIE 대표곡: That's Hilarious
+INSERT INTO track (id, mv_url)
+VALUES ('0wPKDeY4fZXT6k9bzV0kx0', 'Nq3x1AkwgpY')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Nine Track Mind (Deluxe Edition) 대표곡: We Don't Talk Anymore (feat. Selena Gomez)
+INSERT INTO track (id, mv_url)
+VALUES ('6Euy9FOI8qtbekN57TQ861', '3AtDnEC4zak')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- Charlie Puth 끝
+
+
+-- Lauv (5JZ7CnR6gTvEMKX4g70Amv)
+
+-- 아티스트 대표곡: I Like Me Better
+INSERT INTO track (id, mv_url)
+VALUES ('4MagTPnkPiDuIa4P8GtW1b', 'BcqxLCWn-CE')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: I met you when I was 18. (the playlist) 대표곡: I Like Me Better
+INSERT INTO track (id, mv_url)
+VALUES ('4MagTPnkPiDuIa4P8GtW1b', 'BcqxLCWn-CE')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: ~how i'm feeling~ 대표곡: Mean It
+INSERT INTO track (id, mv_url)
+VALUES ('6mXdCcFnPKQznj4CmMRmHC', 'c_10qS7amjk')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: All 4 Nothing 대표곡: All 4 Nothing (I'm So In Love)
+INSERT INTO track (id, mv_url)
+VALUES ('7I5WT7DtpwSAhEeDLpZEfm', 'AH8b7EynJ60')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: ~how i'm feeling~ (the extras) 대표곡: Love Like That
+INSERT INTO track (id, mv_url)
+VALUES ('5aYEQLm02WlSlaOv5g6sZo', '7ympPwhl0iU')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: I met you when I was 18. (the extras) 대표곡: I Like Me Better (Ryan Riback Remix)
+INSERT INTO track (id, mv_url)
+VALUES ('5ach9WprwlglJbtSasbqqB', 'NxKXslcfE3A')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- Lauv 끝
+
+
+-- Ava Max (4npEfmQ6YuiwW1GpUmaq3F)
+
+-- 아티스트 대표곡: Whatever
+INSERT INTO track (id, mv_url)
+VALUES ('4rTPLtqJxa4UtCBkdMwSp6', 'ZDZiXmCl4pk')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Heaven & Hell 대표곡: Kings & Queens
+INSERT INTO track (id, mv_url)
+VALUES ('7a53HqqArd4b9NF4XAmlbI', 'jH1RNk8954Q')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Diamonds & Dancefloors 대표곡: Maybe You’re The Problem
+INSERT INTO track (id, mv_url)
+VALUES ('6WDG2ybdV3SBXV0lwBGu4D', 'ijS_orLb6VU')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- Ava Max 끝
+
+
+-- Maroon 5 (04gDigrS5kc9YWfZHwBETP)
+
+-- 아티스트 대표곡: Payphone
+INSERT INTO track (id, mv_url)
+VALUES ('1XGmzt0PVuFgQYYnV2It7A', 'KRaWnd3LJfs')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Overexposed Track By Track 대표곡: Payphone
+INSERT INTO track (id, mv_url)
+VALUES ('1XGmzt0PVuFgQYYnV2It7A', 'KRaWnd3LJfs')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Songs About Jane: 10th Anniversary Edition 대표곡: This Love
+INSERT INTO track (id, mv_url)
+VALUES ('6ECp64rv50XVz93WvxXMGF', 'XPpTgCho5ZA')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: JORDI (Deluxe) 대표곡: Memories
+INSERT INTO track (id, mv_url)
+VALUES ('4cktbXiXOapiLBMprHFErI', 'SlPhMPnQ58k')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Hands All Over (Revised International Standard version) 대표곡: Moves Like Jagger - Studio Recording From "The Voice" Performance
+INSERT INTO track (id, mv_url)
+VALUES ('7pYfyrMNPn3wtoCyqcTVoI', 'iEPTlhBmwRg')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: It Won't Be Soon Before Long (International Version) 대표곡: Won't Go Home Without You
+INSERT INTO track (id, mv_url)
+VALUES ('6WEBwvsmpaoGxka0tSh5a7', 'VlMEGBsw6j8')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- Maroon 5 끝
+
+
+-- Troye Sivan (3WGpXCj9YhhfX11TToZcXP)
+
+-- 아티스트 대표곡: Rush
+INSERT INTO track (id, mv_url)
+VALUES ('4ZnkygoWLzcGbQYCm3lkae', 'b53QJYP-lqY')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Something To Give Each Other 대표곡: Rush
+INSERT INTO track (id, mv_url)
+VALUES ('4ZnkygoWLzcGbQYCm3lkae', 'b53QJYP-lqY')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Blue Neighbourhood (Deluxe) 대표곡: YOUTH
+INSERT INTO track (id, mv_url)
+VALUES ('0nhBKubnVz9yFNNprBniWz', 'XYAghEq5Lfw')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Bloom 대표곡: Dance To This (feat. Ariana Grande)
+INSERT INTO track (id, mv_url)
+VALUES ('2NjO87HyT80fsgejd3PLYW', 'bhxhNIQBKJI')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Blue Neighbourhood (The Remixes) 대표곡: YOUTH - Acoustic
+INSERT INTO track (id, mv_url)
+VALUES ('6PtE41BwaPBOjjMc8mKcG4', '8eeewL0yBuU')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- Troye Sivan 끝
+
+
+-- Shawn Mendes (7n2wHs1TKAczGzO7Dd2rGr)
+
+-- 아티스트 대표곡: There's Nothing Holdin' Me Back
+INSERT INTO track (id, mv_url)
+VALUES ('7JJmb5XwzOO8jgpou264Ml', 'dT2owtxkU8k')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Illuminate (Deluxe) 대표곡: There's Nothing Holdin' Me Back
+INSERT INTO track (id, mv_url)
+VALUES ('7JJmb5XwzOO8jgpou264Ml', 'dT2owtxkU8k')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Illuminate 대표곡: Treat You Better
+INSERT INTO track (id, mv_url)
+VALUES ('3QGsuHI8jO1Rx4JWLUh9jd', 'lY2yjAdbvdQ')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Handwritten 대표곡: Stitches
+INSERT INTO track (id, mv_url)
+VALUES ('5jsw9uXEGuKyJzs0boZ1bT', 'VbfpW0pbvaU')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Shawn Mendes (Deluxe) 대표곡: Señorita
+INSERT INTO track (id, mv_url)
+VALUES ('6v3KW9xbzN5yKLt9YKDYA2', 'Pkh8UtuejGw')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Handwritten (Deluxe) 대표곡: Imagination
+INSERT INTO track (id, mv_url)
+VALUES ('21TcDbGosp7w9YhTjOszgA', 'n-cbmODpGx0')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- Shawn Mendes 끝
+
+
+-- ===== 2025-07-01 수집 끝 =====
+
+
+-- ===== 2025-07-01 수집 시작 =====
+
+-- MAKTUB (0frNU3rG4ltOP4GNBA1g4j)
+
+-- 아티스트 대표곡: 시작의 아이 ハジマリのコ (Starting With You)
+INSERT INTO track (id, mv_url)
+VALUES ('2GMKQPMXdOGXsQkDYBN6wF', '3XDf5Ke2Zj8')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: SPACE OPERA (Red Moon : Complete Edition) 대표곡: The Eternal Moment
+INSERT INTO track (id, mv_url)
+VALUES ('5pYLP5WAWJpnT1D5HyK9qm', 'tL7HKKEoW1Y')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: FANTASY 대표곡: Marry Me
+INSERT INTO track (id, mv_url)
+VALUES ('6nKt6kb9KfpfNZyFDpYmgt', 'czH-H8zJJY8')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Moment Becomes Forever 대표곡: Moment Becomes Forever (feat. MaRa Music friends)
+INSERT INTO track (id, mv_url)
+VALUES ('1WGT4fEhaPVObvFMvqht0i', 'H5yrJul5_xs')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- MAKTUB 끝
+
+
+-- ===== 2025-07-01 수집 끝 =====
+
+
+-- ===== 2025-07-01 수집 시작 =====
+
+-- Beyoncé (6vWDO969PvNqNYHIOW5v0m)
+
+-- 아티스트 대표곡: Crazy In Love (feat. JAY-Z)
+INSERT INTO track (id, mv_url)
+VALUES ('0TwBtDAWpkpM3srywFVOV5', 'ViwtNLUqkMY')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: RENAISSANCE 대표곡: CUFF IT
+INSERT INTO track (id, mv_url)
+VALUES ('1xzi1Jcr7mEi9K2RfzLOqS', 'SjqmSPZhF3s')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Lemonade 대표곡: All Night
+INSERT INTO track (id, mv_url)
+VALUES ('7oAuqs6akGnPU3Tb00ZmyM', 'gM89Q5Eng_M')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: COWBOY CARTER 대표곡: TEXAS HOLD 'EM
+INSERT INTO track (id, mv_url)
+VALUES ('7wLShogStyDeZvL0a6daN5', '238Z4YaAr1g')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: BEYONCÉ [Platinum Edition] 대표곡: Haunted
+INSERT INTO track (id, mv_url)
+VALUES ('7cioKB5CHVzk09SOtTyn0T', 'K4r4lysSgLE')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: I AM...SASHA FIERCE - Platinum Edition 대표곡: Halo
+INSERT INTO track (id, mv_url)
+VALUES ('2CvOqDpQIMw69cCzWqr5yr', 'bnVUHWCynig')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- Beyoncé 끝
+
+
+-- Travis Scott (0Y5tJX1MQlPlqiwlOH1tJY)
+
+-- 아티스트 대표곡: FE!N (feat. Playboi Carti)
+INSERT INTO track (id, mv_url)
+VALUES ('42VsgItocQwOQC3XWZ8JNA', 'B9synWjqBn8')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Birds In The Trap Sing McKnight 대표곡: goosebumps
+INSERT INTO track (id, mv_url)
+VALUES ('6gBFPUFcJLzWGx4lenP6h2', 'Dst9gZkq1a8')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: ASTROWORLD 대표곡: SICKO MODE
+INSERT INTO track (id, mv_url)
+VALUES ('2xLMifQCjDGFmkHkpNLD9h', '6ONRf7h3Mdk')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: UTOPIA 대표곡: MY EYES
+INSERT INTO track (id, mv_url)
+VALUES ('4kjI1gwQZRKNDkw1nI475M', 'R44-x0fYczg')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Rodeo 대표곡: 90210 (feat. Kacy Hill)
+INSERT INTO track (id, mv_url)
+VALUES ('51EC3I1nQXpec4gDk0mQyP', 'BuNBLjJzRoo')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: JACKBOYS 대표곡: OUT WEST (feat. Young Thug)
+INSERT INTO track (id, mv_url)
+VALUES ('6gi6y1xwmVszDWkUqab1qw', 'qAlF70MdfwU')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- Travis Scott 끝
+
+
+-- Doja Cat (5cj0lLjcoR7YOSnhnX0Po5)
+
+-- 아티스트 대표곡: Kiss Me More (feat. SZA)
+INSERT INTO track (id, mv_url)
+VALUES ('3DarAbFujv6eYNliUTyqtz', '0EVVKs6DQLo')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Planet Her 대표곡: Woman
+INSERT INTO track (id, mv_url)
+VALUES ('6Uj1ctrBOjOas8xZXGqKk4', 'yxW5yuzVi8w')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Hot Pink 대표곡: Streets
+INSERT INTO track (id, mv_url)
+VALUES ('60ynsPSSKe6O3sfwRnIBRf', 'jJdlgKzVsnI')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Amala 대표곡: Candy
+INSERT INTO track (id, mv_url)
+VALUES ('1VJwtWR6z7SpZRwipI12be', 'ZRHHOttkM1A')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Scarlet 대표곡: Agora Hills
+INSERT INTO track (id, mv_url)
+VALUES ('7dJYggqjKo71KI9sLzqCs8', '0c66ksfigtU')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Amala (Deluxe Version) 대표곡: Tia Tamera (feat. Rico Nasty)
+INSERT INTO track (id, mv_url)
+VALUES ('1uNePI826aqh9uC9pgbeHU', 'C_yI2959DYU')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- Doja Cat 끝
+
+
+-- Lil Nas X (7jVv8c5Fj3E9VhNjxT4snq)
+
+-- 아티스트 대표곡: INDUSTRY BABY (feat. Jack Harlow)
+INSERT INTO track (id, mv_url)
+VALUES ('5Z9KJZvQzH6PFmb8SNkxuk', 'UTHLKHL_whs')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: MONTERO 대표곡: THATS WHAT I WANT
+INSERT INTO track (id, mv_url)
+VALUES ('0e8nrvls4Qqv5Rfa2UhqmO', 'QDYDRA5JPLE')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: 7 대표곡: Old Town Road (feat. Billy Ray Cyrus) - Remix
+INSERT INTO track (id, mv_url)
+VALUES ('2YpeDb67231RjR0MgVLzsG', 'r7qovpFAGrQ')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Days Before Dreamboy 대표곡: HOTBOX
+INSERT INTO track (id, mv_url)
+VALUES ('2UcHKgT00bLP7Cjkni3Itg', 'VQ0UPCY5XZY')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 추가 인기곡 보충: MONTERO (Call Me By Your Name)
+INSERT INTO track (id, mv_url)
+VALUES ('1SC5rEoYDGUK4NfG82494W', '6swmTBVI83k')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 추가 인기곡 보충: Old Town Road
+INSERT INTO track (id, mv_url)
+VALUES ('0F7FA14euOIX8KcbEturGH', 'r7qovpFAGrQ')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- Lil Nas X 끝
+
+
+-- Justin Timberlake (31TPClRtHm23RisEBtV3X7)
+
+-- 아티스트 대표곡: SexyBack (feat. Timbaland)
+INSERT INTO track (id, mv_url)
+VALUES ('0O45fw2L5vsWpdsOdXwNAR', '3gOHvDP_vCs')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: The 20/20 Experience (Deluxe Version) 대표곡: Mirrors
+INSERT INTO track (id, mv_url)
+VALUES ('4rHZZAmHpZrA3iH5zx8frV', 'uuZE_IRwLNI')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Man of the Woods 대표곡: Say Something (feat. Chris Stapleton)
+INSERT INTO track (id, mv_url)
+VALUES ('1LhMopPAallLeaeNutqbgS', '8MPbR6Cbwi4')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: The 20/20 Experience - 2 of 2 (Deluxe) 대표곡: Not a Bad Thing
+INSERT INTO track (id, mv_url)
+VALUES ('3nB82yGjtbQFSU0JLAwLRH', 'Vjty080jy60')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Everything I Thought It Was 대표곡: No Angels
+INSERT INTO track (id, mv_url)
+VALUES ('3Llg6UrxeStZxQJNjEQrlM', 'hAnePKLB1EY')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: 12" Masters - The Essential Mixes 대표곡: Rock Your Body - Paul Oakenfold Mix
+INSERT INTO track (id, mv_url)
+VALUES ('369m6KUvZ2ANGGYn41AneD', 'HKinO6FDCE8')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- Justin Timberlake 끝
+
+
+-- ===== 2025-07-01 수집 끝 =====
+
+
+-- ===== 2025-07-01 수집 시작 =====
+
+-- ===== 2025-07-01 수집 끝 =====
+
