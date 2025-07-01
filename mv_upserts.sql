@@ -2274,3 +2274,215 @@ ON DUPLICATE KEY UPDATE
 
 -- ===== 2025-07-01 수집 끝 =====
 
+
+-- ===== 2025-07-01 수집 시작 =====
+
+-- Kendrick Lamar (2YZyLoL8N0Wb9xBt1NhZWg)
+
+-- 아티스트 대표곡: luther (with sza)
+INSERT INTO track (id, mv_url)
+VALUES ('2CGNAOSuO1MEFCbBRgUzjd', 'sNY_2TEmzho')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: GNX 대표곡: tv off (feat. lefty gunplay)
+INSERT INTO track (id, mv_url)
+VALUES ('0aB0v4027ukVziUGwVGYpG', 'U8F5G5wR1mk')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 추가 인기곡 보충: All The Stars (with SZA) - From "Black Panther: The Album"
+INSERT INTO track (id, mv_url)
+VALUES ('3GCdLUSnKSMJhs4Tj6CV3s', 'JQbjS0_ZfJ0')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 추가 인기곡 보충: Not Like Us
+INSERT INTO track (id, mv_url)
+VALUES ('6AI3ezQ4o3HUoP6Dhudph3', 'H58vbez_m4E')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 추가 인기곡 보충: Money Trees
+INSERT INTO track (id, mv_url)
+VALUES ('74tLlkN3rgVzRqQJgPfink', 'hwR_1EP18eo')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 추가 인기곡 보충: HUMBLE.
+INSERT INTO track (id, mv_url)
+VALUES ('7KXjTSCq5nL1LoYtL7XAwS', 'tvTRZJ-4EyI')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- Kendrick Lamar 끝
+
+
+-- Olivia Rodrigo (1McMsnEElThX1knmY4oliG)
+
+-- 아티스트 대표곡: traitor
+INSERT INTO track (id, mv_url)
+VALUES ('5CZ40GBx1sQ9agT82CLQCT', 'CRrf3h9vhp8')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 추가 인기곡 보충: deja vu
+INSERT INTO track (id, mv_url)
+VALUES ('6HU7h9RYOaPRFeh0R3UeAr', 'cii6ruuycQA')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 추가 인기곡 보충: drivers license
+INSERT INTO track (id, mv_url)
+VALUES ('5wANPM4fQCJwkGd4rN57mH', 'ZmDBbnmKpqQ')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 추가 인기곡 보충: vampire
+INSERT INTO track (id, mv_url)
+VALUES ('1kuGVB7EU95pJObxwvfwKS', 'RlPNh_PBZb4')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 추가 인기곡 보충: happier
+INSERT INTO track (id, mv_url)
+VALUES ('2tGvwE8GcFKwNdAXMnlbfl', 'XwQ7lpnxj0o')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 추가 인기곡 보충: good 4 u
+INSERT INTO track (id, mv_url)
+VALUES ('4ZtFanR9U6ndgddUvNcjcG', 'gNi_6U5Pm_o')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- Olivia Rodrigo 끝
+
+
+-- Megan Thee Stallion (181bsRPaVXVlUKXrxwZfHK)
+
+-- 아티스트 대표곡: WAP (feat. Megan Thee Stallion)
+INSERT INTO track (id, mv_url)
+VALUES ('4Oun2ylbjFKMPTiaSbbCih', 'hsm4poTWjMs')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: MEGAN 대표곡: Mamushi (feat. Yuki Chiba)
+INSERT INTO track (id, mv_url)
+VALUES ('5b3XJ1pjrHO5JtY2PcTjnI', 'OdxSbc0ap-s')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Something for Thee Hotties 대표곡: Thot Shit
+INSERT INTO track (id, mv_url)
+VALUES ('7FdmHr87G79PDRGy9SPBkZ', 'KynkMn5Hv3Q')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Good News 대표곡: Body
+INSERT INTO track (id, mv_url)
+VALUES ('0A1hoCfMLkiAgvhWkkucJa', '7PBYGu4Az8s')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Suga 대표곡: Savage
+INSERT INTO track (id, mv_url)
+VALUES ('55CHeLEfn5iJ0IIkgaa4si', 'Ftd89k-QXRA')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Tina Snow 대표곡: Cognac Queen
+INSERT INTO track (id, mv_url)
+VALUES ('2GbS8QZToLioxL8XMEwX3P', 'ryVqSqU2rQI')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- Megan Thee Stallion 끝
+
+
+-- USHER (23zg3TcAtWQy7J6upgbUnj)
+
+-- 아티스트 대표곡: Yeah! (feat. Lil Jon & Ludacris)
+INSERT INTO track (id, mv_url)
+VALUES ('5rb9QrpfcKFHM1EUbSIurX', 'GxBSyx85Kp8')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Raymond v Raymond (Expanded Edition) 대표곡: DJ Got Us Fallin' In Love (feat. Pitbull)
+INSERT INTO track (id, mv_url)
+VALUES ('4356Typ82hUiFAynbLYbPn', 'C-dvTjK_07c')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Confessions (Expanded Edition) 대표곡: My Boo
+INSERT INTO track (id, mv_url)
+VALUES ('68vgtRHr7iZHpzGpon6Jlo', 'fPgf2meEX1w')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Here I Stand 대표곡: Love in This Club (feat. Young Jeezy)
+INSERT INTO track (id, mv_url)
+VALUES ('5j0McHPthKpOXRr3fBq8M0', 'cB5e0zHRzHc')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Looking 4 Myself (Expanded Edition) 대표곡: Scream
+INSERT INTO track (id, mv_url)
+VALUES ('12eMQUn2GzfsfsQLH53M19', 'qnjqNHB1bKw')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: 8701 대표곡: U Remind Me
+INSERT INTO track (id, mv_url)
+VALUES ('2QsZVnbWVSjKMXK6K3uRBL', 'Bxau9B3jOHM')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- USHER 끝
+
+
+-- Alicia Keys (3DiDSECUqqY1AuBP8qtaIa)
+
+-- 아티스트 대표곡: If I Ain't Got You
+INSERT INTO track (id, mv_url)
+VALUES ('3XVBdLihbNbxUwZosxcGuJ', 'Ju8Hr50Ckwk')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: No One (Remixes) 대표곡: No One
+INSERT INTO track (id, mv_url)
+VALUES ('0mZ5GyrHG908lqrHaTw4hi', 'rywUS-ohqeE')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: Songs In A Minor 대표곡: Fallin'
+INSERT INTO track (id, mv_url)
+VALUES ('0KQx6HOpJueiSkztcS0r7D', 'Urdlvw0SSEc')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: As I Am (Expanded Edition) 대표곡: No One
+INSERT INTO track (id, mv_url)
+VALUES ('6IwKcFdiRQZOWeYNhUiWIv', 'rywUS-ohqeE')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: The Element Of Freedom 대표곡: Empire State of Mind (Part II) Broken Down
+INSERT INTO track (id, mv_url)
+VALUES ('5sra5UY6sD658OabHL3QtI', 'vk6014HuxcE')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- 앨범: The Diary Of Alicia Keys 대표곡: You Don't Know My Name
+INSERT INTO track (id, mv_url)
+VALUES ('6LGwYMXXgURfaequXipzHx', '_ST6ZRbhGiA')
+ON DUPLICATE KEY UPDATE
+    mv_url = VALUES(mv_url);
+
+-- Alicia Keys 끝
+
+
+-- ===== 2025-07-01 수집 끝 =====
+
+403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&maxResults=1&q=Halsey%20Closer%20of
+ficial%20music%20video&key=AIzaSyD8pnS-yKjfAjwCIA_bcI-ktVOcmNHMpoE
